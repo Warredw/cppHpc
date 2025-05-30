@@ -30,8 +30,7 @@ SRCS         := $(shell find $(SRCDIR) -name '*.cpp')
 OBJS         := $(patsubst $(SRCDIR)/%.cpp,$(OBJDIR)/%.o,$(SRCS))
 
 # 6) Final executable
-TARGET       := $(BINDIR)/scheduling
-
+TARGET       := $(BINDIR)/StaticSchedules
 .PHONY: all clean
 
 # Default target
