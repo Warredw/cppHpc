@@ -43,7 +43,7 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
             //runCounter++;
             tournament->resetTournament();
 
-            //tournament->getTeamManager()->changeTeamRatings("equallyDistanced");
+            tournament->getTeamManager()->changeTeamRatings("equallyDistanced");
 
             tournament->makeInitialSchedule(randomNumberGenerator);
 
@@ -123,10 +123,10 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
             }
         }
 
-    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\boundsStatic.txt)", teamBounds);
-    Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_static.txt)", rfFeaturesList);
-    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_static.txt)", lastRoundsMatches);
-    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_static.txt)", rankingInfo);
+    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\bounds_static_rating_effect.txt)", teamBounds);
+    Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_static_rating_effect.txt)", rfFeaturesList);
+    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_static_rating_effect.txt)", lastRoundsMatches);
+    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_static_rating_effect.txt)", rankingInfo);
 }
 
 
