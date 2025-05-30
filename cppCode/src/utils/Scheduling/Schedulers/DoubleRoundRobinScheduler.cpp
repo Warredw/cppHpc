@@ -59,10 +59,10 @@ void DoubleRoundRobinScheduler::setSecondSchedule(Tournament &tournament)const {
 
     std::vector<std::vector<int>> firstHalfHomeAway = tournament.getfirstHalfHomeAway();
     addOppositeVenueConstraint(model, env, tournament, x, firstHalfHomeAway);
-    addHapSecondHalfConstraint(model, env, hapSetSecondHalf, x, tournament); // Only applicable to the second half of the season (first half is static or reversed)
-
-
+    //addHapSecondHalfConstraint(model, env, hapSetSecondHalf, x, tournament); // Only applicable to the second half of the season (first half is static or reversed)
     schedulingStrategy->setObjective(env, model, x, tournament);
+
+
     // set own objective
 
 

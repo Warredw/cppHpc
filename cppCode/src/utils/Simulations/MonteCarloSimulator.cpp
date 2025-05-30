@@ -123,15 +123,10 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
             }
         }
 
-
-
-
-
-
-
-    Writer::writeTeamBounds(R"(C:\Users\dewae\Documents\school\thesis\cppCode\good_output\team_bounds_test_rating_effect.txt)", teamBounds);
-    //Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Documents\school\thesis\cppCode\good_output\rf_features_test.txt)", rfFeaturesList);
-    Writer::writeLastRounds(R"(C:\Users\dewae\Documents\school\thesis\cppCode\good_output\last_rounds_test_rating_effect.txt)", lastRoundsMatches);
-    Writer::writeRankings(R"(C:\Users\dewae\Documents\school\thesis\cppCode\good_output\ranking_test_rating_effect.txt)", rankingInfo);
+    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\boundsStatic.txt)", teamBounds);
+    Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_static.txt)", rfFeaturesList);
+    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_static.txt)", lastRoundsMatches);
+    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_static.txt)", rankingInfo);
 }
+
 

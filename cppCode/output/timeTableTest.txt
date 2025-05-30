@@ -1,0 +1,451 @@
+Round 1
+Liverpool vs Arsenal
+Man City vs Fulham
+Everton vs Ipswich
+Newcastle United vs West Ham United
+Tottenham vs Aston Villa
+Bournemouth vs Man United
+Nottingham Forest vs Chelsea
+Brentford vs Brighton
+Wolverhampton vs Leicester
+Southampton vs Crystal Palace
+
+Round 2
+Leicester vs Newcastle United
+Arsenal vs Everton
+Fulham vs Brentford
+Aston Villa vs Liverpool
+Chelsea vs Man City
+Crystal Palace vs Nottingham Forest
+Brighton vs Southampton
+Ipswich vs Tottenham
+Man United vs Wolverhampton
+West Ham United vs Bournemouth
+
+Round 3
+Liverpool vs Man United
+Aston Villa vs Ipswich
+Man City vs Leicester
+Everton vs Crystal Palace
+Newcastle United vs Chelsea
+Tottenham vs West Ham United
+Bournemouth vs Arsenal
+Nottingham Forest vs Brentford
+Wolverhampton vs Brighton
+Southampton vs Fulham
+
+Round 4
+Leicester vs Bournemouth
+Arsenal vs Aston Villa
+Fulham vs Wolverhampton
+Chelsea vs Tottenham
+Crystal Palace vs Man City
+Brighton vs Nottingham Forest
+Ipswich vs Liverpool
+Man United vs Newcastle United
+Brentford vs Southampton
+West Ham United vs Everton
+
+Round 5
+Liverpool vs Chelsea
+Aston Villa vs West Ham United
+Man City vs Brighton
+Everton vs Man United
+Newcastle United vs Brentford
+Tottenham vs Arsenal
+Bournemouth vs Fulham
+Nottingham Forest vs Southampton
+Ipswich vs Leicester
+Wolverhampton vs Crystal Palace
+
+Round 6
+Leicester vs Tottenham
+Arsenal vs Ipswich
+Fulham vs Nottingham Forest
+Chelsea vs Everton
+Crystal Palace vs Newcastle United
+Brighton vs Bournemouth
+Man United vs Aston Villa
+Brentford vs Wolverhampton
+West Ham United vs Liverpool
+Southampton vs Man City
+
+Round 7
+Arsenal vs West Ham United
+Liverpool vs Crystal Palace
+Aston Villa vs Brighton
+Man City vs Nottingham Forest
+Everton vs Leicester
+Newcastle United vs Fulham
+Tottenham vs Southampton
+Bournemouth vs Brentford
+Ipswich vs Man United
+Wolverhampton vs Chelsea
+
+Round 8
+Leicester vs Arsenal
+Fulham vs Everton
+Chelsea vs Bournemouth
+Crystal Palace vs Aston Villa
+Nottingham Forest vs Newcastle United
+Brighton vs Liverpool
+Man United vs Tottenham
+Brentford vs Man City
+West Ham United vs Ipswich
+Southampton vs Wolverhampton
+
+Round 9
+Arsenal vs Chelsea
+Liverpool vs Leicester
+Aston Villa vs Fulham
+Everton vs Nottingham Forest
+Newcastle United vs Brighton
+Tottenham vs Crystal Palace
+Bournemouth vs Southampton
+Ipswich vs Brentford
+West Ham United vs Man United
+Wolverhampton vs Man City
+
+Round 10
+Leicester vs Aston Villa
+Fulham vs Liverpool
+Man City vs Everton
+Chelsea vs Ipswich
+Crystal Palace vs Bournemouth
+Nottingham Forest vs Wolverhampton
+Brighton vs West Ham United
+Man United vs Arsenal
+Brentford vs Tottenham
+Southampton vs Newcastle United
+
+Round 11
+Arsenal vs Fulham
+Liverpool vs Nottingham Forest
+Aston Villa vs Chelsea
+Everton vs Southampton
+Newcastle United vs Man City
+Tottenham vs Brighton
+Bournemouth vs Wolverhampton
+Ipswich vs Crystal Palace
+Man United vs Leicester
+West Ham United vs Brentford
+
+Round 12
+Leicester vs West Ham United
+Fulham vs Tottenham
+Man City vs Bournemouth
+Chelsea vs Man United
+Crystal Palace vs Arsenal
+Nottingham Forest vs Aston Villa
+Brighton vs Everton
+Brentford vs Liverpool
+Wolverhampton vs Newcastle United
+Southampton vs Ipswich
+
+Round 13
+Leicester vs Crystal Palace
+Arsenal vs Southampton
+Liverpool vs Wolverhampton
+Aston Villa vs Man City
+Everton vs Brentford
+Tottenham vs Nottingham Forest
+Bournemouth vs Newcastle United
+Ipswich vs Fulham
+Man United vs Brighton
+West Ham United vs Chelsea
+
+Round 14
+Fulham vs West Ham United
+Man City vs Liverpool
+Chelsea vs Leicester
+Newcastle United vs Tottenham
+Crystal Palace vs Man United
+Nottingham Forest vs Bournemouth
+Brighton vs Ipswich
+Brentford vs Arsenal
+Wolverhampton vs Everton
+Southampton vs Aston Villa
+
+Round 15
+Leicester vs Brighton
+Arsenal vs Wolverhampton
+Liverpool vs Southampton
+Aston Villa vs Bournemouth
+Everton vs Newcastle United
+Chelsea vs Brentford
+Tottenham vs Man City
+Ipswich vs Nottingham Forest
+Man United vs Fulham
+West Ham United vs Crystal Palace
+
+Round 16
+Fulham vs Leicester
+Man City vs Ipswich
+Newcastle United vs Liverpool
+Crystal Palace vs Chelsea
+Bournemouth vs Everton
+Nottingham Forest vs West Ham United
+Brighton vs Arsenal
+Brentford vs Aston Villa
+Wolverhampton vs Tottenham
+Southampton vs Man United
+
+Round 17
+Leicester vs Southampton
+Arsenal vs Nottingham Forest
+Liverpool vs Bournemouth
+Aston Villa vs Wolverhampton
+Chelsea vs Brighton
+Crystal Palace vs Fulham
+Tottenham vs Everton
+Ipswich vs Newcastle United
+Man United vs Brentford
+West Ham United vs Man City
+
+
+Round 20
+Leicester vs Wolverhampton
+Arsenal vs Liverpool
+Fulham vs Man City
+Aston Villa vs Tottenham
+Chelsea vs Nottingham Forest
+Crystal Palace vs Southampton
+Brighton vs Brentford
+Ipswich vs Everton
+Man United vs Bournemouth
+West Ham United vs Newcastle United
+
+Round 21
+Liverpool vs Aston Villa
+Man City vs Chelsea
+Everton vs Arsenal
+Newcastle United vs Leicester
+Tottenham vs Ipswich
+Bournemouth vs West Ham United
+Nottingham Forest vs Crystal Palace
+Brentford vs Fulham
+Wolverhampton vs Man United
+Southampton vs Brighton
+
+Round 22
+Leicester vs Man City
+Arsenal vs Bournemouth
+Fulham vs Southampton
+Chelsea vs Newcastle United
+Crystal Palace vs Everton
+Brighton vs Wolverhampton
+Ipswich vs Aston Villa
+Man United vs Liverpool
+Brentford vs Nottingham Forest
+West Ham United vs Tottenham
+
+Round 23
+Liverpool vs Ipswich
+Aston Villa vs Arsenal
+Man City vs Crystal Palace
+Everton vs West Ham United
+Newcastle United vs Man United
+Tottenham vs Chelsea
+Bournemouth vs Leicester
+Nottingham Forest vs Brighton
+Wolverhampton vs Fulham
+Southampton vs Brentford
+
+Round 24
+Leicester vs Ipswich
+Arsenal vs Tottenham
+Fulham vs Bournemouth
+Chelsea vs Liverpool
+Crystal Palace vs Wolverhampton
+Brighton vs Man City
+Man United vs Everton
+Brentford vs Newcastle United
+West Ham United vs Aston Villa
+Southampton vs Nottingham Forest
+
+Round 25
+Liverpool vs West Ham United
+Aston Villa vs Man United
+Man City vs Southampton
+Everton vs Chelsea
+Newcastle United vs Crystal Palace
+Tottenham vs Leicester
+Bournemouth vs Brighton
+Nottingham Forest vs Fulham
+Ipswich vs Arsenal
+Wolverhampton vs Brentford
+
+Round 26
+Leicester vs Everton
+Fulham vs Newcastle United
+Chelsea vs Wolverhampton
+Crystal Palace vs Liverpool
+Nottingham Forest vs Man City
+Brighton vs Aston Villa
+Man United vs Ipswich
+Brentford vs Bournemouth
+West Ham United vs Arsenal
+Southampton vs Tottenham
+
+Round 27
+Arsenal vs Leicester
+Liverpool vs Brighton
+Aston Villa vs Crystal Palace
+Man City vs Brentford
+Everton vs Fulham
+Newcastle United vs Nottingham Forest
+Tottenham vs Man United
+Bournemouth vs Chelsea
+Ipswich vs West Ham United
+Wolverhampton vs Southampton
+
+Round 28
+Leicester vs Liverpool
+Fulham vs Aston Villa
+Man City vs Wolverhampton
+Chelsea vs Arsenal
+Crystal Palace vs Tottenham
+Nottingham Forest vs Everton
+Brighton vs Newcastle United
+Man United vs West Ham United
+Brentford vs Ipswich
+Southampton vs Bournemouth
+
+Round 29
+Arsenal vs Man United
+Liverpool vs Fulham
+Aston Villa vs Leicester
+Everton vs Man City
+Newcastle United vs Southampton
+Tottenham vs Brentford
+Bournemouth vs Crystal Palace
+Ipswich vs Chelsea
+West Ham United vs Brighton
+Wolverhampton vs Nottingham Forest
+
+Round 30
+Leicester vs Man United
+Fulham vs Arsenal
+Man City vs Newcastle United
+Chelsea vs Aston Villa
+Crystal Palace vs Ipswich
+Nottingham Forest vs Liverpool
+Brighton vs Tottenham
+Brentford vs West Ham United
+Wolverhampton vs Bournemouth
+Southampton vs Everton
+
+Round 31
+Arsenal vs Crystal Palace
+Liverpool vs Brentford
+Aston Villa vs Nottingham Forest
+Everton vs Brighton
+Newcastle United vs Wolverhampton
+Tottenham vs Fulham
+Bournemouth vs Man City
+Ipswich vs Southampton
+Man United vs Chelsea
+West Ham United vs Leicester
+
+Round 32
+Fulham vs Ipswich
+Man City vs Aston Villa
+Chelsea vs West Ham United
+Newcastle United vs Bournemouth
+Crystal Palace vs Leicester
+Nottingham Forest vs Tottenham
+Brighton vs Man United
+Brentford vs Everton
+Wolverhampton vs Liverpool
+Southampton vs Arsenal
+
+Round 33
+Leicester vs Chelsea
+Arsenal vs Brentford
+Liverpool vs Man City
+Aston Villa vs Southampton
+Everton vs Wolverhampton
+Tottenham vs Newcastle United
+Bournemouth vs Nottingham Forest
+Ipswich vs Brighton
+Man United vs Crystal Palace
+West Ham United vs Fulham
+
+Round 34
+Fulham vs Man United
+Man City vs Tottenham
+Newcastle United vs Everton
+Crystal Palace vs West Ham United
+Bournemouth vs Aston Villa
+Nottingham Forest vs Ipswich
+Brighton vs Leicester
+Brentford vs Chelsea
+Wolverhampton vs Arsenal
+Southampton vs Liverpool
+
+Round 35
+Leicester vs Fulham
+Arsenal vs Brighton
+Liverpool vs Newcastle United
+Aston Villa vs Brentford
+Everton vs Bournemouth
+Chelsea vs Crystal Palace
+Tottenham vs Wolverhampton
+Ipswich vs Man City
+Man United vs Southampton
+West Ham United vs Nottingham Forest
+
+Round 36
+Fulham vs Crystal Palace
+Man City vs West Ham United
+Everton vs Tottenham
+Newcastle United vs Ipswich
+Bournemouth vs Liverpool
+Nottingham Forest vs Arsenal
+Brighton vs Chelsea
+Brentford vs Man United
+Wolverhampton vs Aston Villa
+Southampton vs Leicester
+
+Round 37
+Leicester vs Brentford
+Arsenal vs Man City
+Liverpool vs Everton
+Aston Villa vs Newcastle United
+Chelsea vs Fulham
+Crystal Palace vs Brighton
+Tottenham vs Bournemouth
+Ipswich vs Wolverhampton
+Man United vs Nottingham Forest
+West Ham United vs Southampton
+
+
+
+
+
+
+Round 38
+Liverpool vs Tottenham
+Man City vs Man United
+Everton vs Aston Villa
+Newcastle United vs Arsenal
+Bournemouth vs Ipswich
+Nottingham Forest vs Leicester
+Brighton vs Fulham
+Brentford vs Crystal Palace
+Wolverhampton vs West Ham United
+Southampton vs Chelsea
+
+
+
+Round 19
+Leicester vs Nottingham Forest
+Arsenal vs Newcastle United
+Fulham vs Brighton
+Aston Villa vs Everton
+Chelsea vs Southampton
+Crystal Palace vs Brentford
+Tottenham vs Liverpool
+Ipswich vs Bournemouth
+Man United vs Man City
+West Ham United vs Wolverhampton

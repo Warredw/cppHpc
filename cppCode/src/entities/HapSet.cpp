@@ -14,6 +14,7 @@ HapSet::HapSet(const string& dNotation, const string& type, std::mt19937& random
     makeHapSetFirstHalf(); // Initialize the (canonic) HAP-set
     shuffleHapSet(randomNumberGenerator); // In order to randomly assign it over the teams
     makeHapSetSecondHalf(); // = reversing the first half or inverting
+    shuffleHapSetSecondHalf(randomNumberGenerator);
 }
 
 
@@ -92,16 +93,10 @@ void HapSet::makeHapSetFirstHalf() {
             hapSetFirstHalf[team][j]
               = 1 - hapSetFirstHalf[team][j+1];
     }
-
-    // (optional) dump to stdout
-    for(int i = 0; i < nrTeams; i++) {
-        for(int j = 0; j < nrTeams-1; j++)
-            std::cout << hapSetFirstHalf[i][j];
-        std::cout << "\n";
-    }
 }
 
 // Function to shuffle the HAP-set
+
 void HapSet::shuffleHapSet(std::mt19937& randomNumberGenerator) {
 
     // Create an index vector for teams
@@ -120,16 +115,27 @@ void HapSet::shuffleHapSet(std::mt19937& randomNumberGenerator) {
 
     // Replace original HAP-set with shuffled version
     hapSetFirstHalf = shuffledHapSet;
+}
 
-    std::ofstream file("C:/Users/dewae/Documents/school/thesis/cppCode/output/hap.txt");
+
+void HapSet::shuffleHapSetSecondHalf(std::mt19937& randomNumberGenerator) {
+
+    // Create an index vector for teams
+    vector<int> indices(nrTeams);
     for(int i = 0; i < nrTeams; i++) {
-        for(int j = 0; j < nrTeams-1; j++) {
-            file << hapSetFirstHalf[i][j];
-        }
-        file<<std::endl;
+        indices[i] = i;
     }
 
-    file.close();
+    //std::shuffle(indices.begin(), indices.end(), randomNumberGenerator);
+
+    // Create a new shuffled HAP-set
+    int** shuffledHapSet = new int*[nrTeams];
+    for(int i = 0; i < nrTeams; i++) {
+        shuffledHapSet[i] = hapSetSecondHalf[indices[i]];
+    }
+
+    // Replace original HAP-set with shuffled version
+    hapSetSecondHalf = shuffledHapSet;
 }
 
 
@@ -161,13 +167,6 @@ void HapSet::makeHapSetSecondHalf() {
             }
         }
 
-    }
-    std::cout<<"Here begins the second part" << std::endl;
-    for(int i = 0; i < nrTeams; i++) {
-        for(int j = 0; j < nrTeams-1; j++) {
-            std::cout<<hapSetSecondHalf[i][j];
-        }
-        std::cout<<std::endl;
     }
 }
 

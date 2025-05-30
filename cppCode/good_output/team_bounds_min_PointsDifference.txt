@@ -1,0 +1,101 @@
+run,team,round,lowest,highest
+0,Liverpool,34,5,1
+0,Arsenal,34,4,1
+0,Tottenham,34,18,6
+0,Newcastle United,34,11,4
+0,Aston Villa,34,6,1
+0,Chelsea,34,8,2
+0,Man City,34,5,1
+0,Everton,34,19,7
+0,Fulham,34,19,7
+0,Leicester,34,19,7
+0,Crystal Palace,34,18,6
+0,Bournemouth,34,19,7
+0,Nottingham Forest,34,18,5
+0,Brighton,34,18,6
+0,Ipswich,34,20,15
+0,Man United,34,16,5
+0,Brentford,34,19,7
+0,Wolverhampton,34,19,8
+0,Southampton,34,20,19
+0,West Ham United,34,19,7
+0,Liverpool,35,5,2
+0,Arsenal,35,2,1
+0,Tottenham,35,18,7
+0,Newcastle United,35,9,5
+0,Aston Villa,35,5,2
+0,Chelsea,35,6,3
+0,Man City,35,4,1
+0,Everton,35,18,7
+0,Fulham,35,18,8
+0,Leicester,35,18,9
+0,Crystal Palace,35,18,7
+0,Bournemouth,35,18,7
+0,Nottingham Forest,35,15,6
+0,Brighton,35,18,6
+0,Ipswich,35,20,18
+0,Man United,35,15,6
+0,Brentford,35,18,7
+0,Wolverhampton,35,19,9
+0,Southampton,35,20,19
+0,West Ham United,35,18,7
+0,Liverpool,36,4,2
+0,Arsenal,36,1,1
+0,Tottenham,36,18,7
+0,Newcastle United,36,8,5
+0,Aston Villa,36,5,2
+0,Chelsea,36,6,4
+0,Man City,36,4,2
+0,Everton,36,18,9
+0,Fulham,36,18,8
+0,Leicester,36,18,10
+0,Crystal Palace,36,18,7
+0,Bournemouth,36,18,8
+0,Nottingham Forest,36,14,6
+0,Brighton,36,15,7
+0,Ipswich,36,20,19
+0,Man United,36,10,6
+0,Brentford,36,18,9
+0,Wolverhampton,36,18,11
+0,Southampton,36,20,19
+0,West Ham United,36,18,8
+0,Liverpool,37,4,2
+0,Arsenal,37,1,1
+0,Tottenham,37,13,8
+0,Newcastle United,37,7,6
+0,Aston Villa,37,4,3
+0,Chelsea,37,5,5
+0,Man City,37,3,2
+0,Everton,37,18,11
+0,Fulham,37,18,11
+0,Leicester,37,18,11
+0,Crystal Palace,37,17,8
+0,Bournemouth,37,18,9
+0,Nottingham Forest,37,11,7
+0,Brighton,37,13,8
+0,Ipswich,37,19,19
+0,Man United,37,8,6
+0,Brentford,37,18,11
+0,Wolverhampton,37,18,12
+0,Southampton,37,20,20
+0,West Ham United,37,18,9
+0,Liverpool,38,3,2
+0,Arsenal,38,1,1
+0,Tottenham,38,11,8
+0,Newcastle United,38,6,6
+0,Aston Villa,38,4,4
+0,Chelsea,38,5,5
+0,Man City,38,3,2
+0,Everton,38,18,13
+0,Fulham,38,18,13
+0,Leicester,38,18,12
+0,Crystal Palace,38,12,8
+0,Bournemouth,38,18,12
+0,Nottingham Forest,38,11,8
+0,Brighton,38,11,8
+0,Ipswich,38,19,19
+0,Man United,38,7,7
+0,Brentford,38,18,13
+0,Wolverhampton,38,18,13
+0,Southampton,38,20,20
+0,West Ham United,38,14,11

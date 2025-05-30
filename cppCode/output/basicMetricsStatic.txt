@@ -1,0 +1,3 @@
+run,round winner decided,number lead changes,number relegation changes
+0,38,1,1
+1,36,2,2

@@ -26,6 +26,8 @@ public:
     ~HapSet();
     void makeHapSetFirstHalf();
     void shuffleHapSet(std::mt19937& randomNumberGenerator);
+    void shuffleHapSetSecondHalf(std::mt19937& randomNumberGenerator);
+
     void makeHapSetSecondHalf();
 
     [[nodiscard]] int** getHapSetSecondHalf () const;

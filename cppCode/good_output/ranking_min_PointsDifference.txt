@@ -1,0 +1,761 @@
+run,round,team,rating,points,saldo
+0,1,Liverpool,1905.69,3,2
+0,1,Arsenal,1954.58,3,2
+0,1,Tottenham,1799.61,3,3
+0,1,Newcastle United,1812.81,3,3
+0,1,Aston Villa,1776.71,3,1
+0,1,Chelsea,1802.42,0,-2
+0,1,Man City,2059.1,1,0
+0,1,Everton,1719,3,1
+0,1,Fulham,1723.48,3,1
+0,1,Leicester,1639.31,0,-2
+0,1,Crystal Palace,1763.95,3,2
+0,1,Bournemouth,1682.39,0,-3
+0,1,Nottingham Forest,1661.23,3,1
+0,1,Brighton,1699.77,0,-1
+0,1,Ipswich,1564.05,0,-2
+0,1,Man United,1768.19,0,-3
+0,1,Brentford,1702.9,1,0
+0,1,Wolverhampton,1670.52,0,-1
+0,1,Southampton,1593.29,0,-1
+0,1,West Ham United,1714,0,-1
+0,2,Liverpool,1907.88,6,3
+0,2,Arsenal,1957.87,6,3
+0,2,Tottenham,1804.17,6,4
+0,2,Newcastle United,1817.22,4,3
+0,2,Aston Villa,1763.54,3,0
+0,2,Chelsea,1807.5,3,0
+0,2,Man City,2061.61,4,3
+0,2,Everton,1728.94,6,3
+0,2,Fulham,1720.2,3,0
+0,2,Leicester,1634.75,0,-3
+0,2,Crystal Palace,1764.24,4,2
+0,2,Bournemouth,1681.53,1,-3
+0,2,Nottingham Forest,1662.09,4,1
+0,2,Brighton,1695.37,1,-1
+0,2,Ipswich,1558.96,0,-4
+0,2,Man United,1758.25,0,-5
+0,2,Brentford,1702.62,2,0
+0,2,Wolverhampton,1668.01,0,-4
+0,2,Southampton,1591.1,0,-2
+0,2,West Ham United,1727.17,3,0
+0,3,Liverpool,1912.08,9,6
+0,3,Arsenal,1952.06,6,2
+0,3,Tottenham,1792.53,6,1
+0,3,Newcastle United,1822.57,7,6
+0,3,Aston Villa,1765.74,4,0
+0,3,Chelsea,1813.28,6,2
+0,3,Man City,2067.42,7,4
+0,3,Everton,1724.74,6,0
+0,3,Fulham,1732.87,6,2
+0,3,Leicester,1632.55,1,-3
+0,3,Crystal Palace,1751.56,4,0
+0,3,Bournemouth,1666.9,1,-4
+0,3,Nottingham Forest,1675.32,7,2
+0,3,Brighton,1707.01,4,2
+0,3,Ipswich,1573.59,3,-3
+0,3,Man United,1762.11,1,-5
+0,3,Brentford,1696.84,2,-2
+0,3,Wolverhampton,1664.14,1,-4
+0,3,Southampton,1585.74,0,-5
+0,3,West Ham United,1713.94,3,-1
+0,4,Liverpool,1899.41,9,5
+0,4,Arsenal,1955.13,9,6
+0,4,Tottenham,1780.22,6,0
+0,4,Newcastle United,1828.27,10,7
+0,4,Aston Villa,1778.41,7,1
+0,4,Chelsea,1820.54,9,4
+0,4,Man City,2074.14,8,4
+0,4,Everton,1710.83,6,-1
+0,4,Fulham,1726.15,7,2
+0,4,Leicester,1646.46,4,-2
+0,4,Crystal Palace,1740.84,4,-1
+0,4,Bournemouth,1679.2,4,-2
+0,4,Nottingham Forest,1686.04,10,3
+0,4,Brighton,1703.93,4,-2
+0,4,Ipswich,1582.47,6,-2
+0,4,Man United,1774.42,4,-4
+0,4,Brentford,1684.54,2,-4
+0,4,Wolverhampton,1656.89,1,-6
+0,4,Southampton,1576.86,0,-6
+0,4,West Ham United,1708.25,3,-2
+0,5,Liverpool,1886.02,9,4
+0,5,Arsenal,1960.76,12,11
+0,5,Tottenham,1771.64,6,-1
+0,5,Newcastle United,1841.65,13,8
+0,5,Aston Villa,1786.99,10,2
+0,5,Chelsea,1835.78,12,5
+0,5,Man City,2058.9,8,3
+0,5,Everton,1718.49,9,1
+0,5,Fulham,1736.27,10,3
+0,5,Leicester,1636.13,4,-3
+0,5,Crystal Palace,1735.22,4,-6
+0,5,Bournemouth,1669.07,4,-3
+0,5,Nottingham Forest,1696.38,13,4
+0,5,Brighton,1709.33,7,3
+0,5,Ipswich,1577.07,6,-7
+0,5,Man United,1778.27,5,-4
+0,5,Brentford,1680.69,3,-4
+0,5,Wolverhampton,1649.76,1,-7
+0,5,Southampton,1569.2,0,-8
+0,5,West Ham United,1715.37,6,-1
+0,6,Liverpool,1894.23,12,7
+0,6,Arsenal,1964.89,15,15
+0,6,Tottenham,1763.43,6,-4
+0,6,Newcastle United,1845.37,16,10
+0,6,Aston Villa,1796.5,13,3
+0,6,Chelsea,1844.41,15,6
+0,6,Man City,2060.36,11,10
+0,6,Everton,1708.99,9,0
+0,6,Fulham,1727.65,10,2
+0,6,Leicester,1632.41,4,-5
+0,6,Crystal Palace,1744.24,7,-4
+0,6,Bournemouth,1667.61,4,-10
+0,6,Nottingham Forest,1701.65,16,6
+0,6,Brighton,1719.98,10,4
+0,6,Ipswich,1569.52,6,-8
+0,6,Man United,1774.14,5,-8
+0,6,Brentford,1670.04,3,-5
+0,6,Wolverhampton,1640.74,1,-9
+0,6,Southampton,1563.93,0,-10
+0,6,West Ham United,1722.92,9,0
+0,7,Liverpool,1900.83,13,7
+0,7,Arsenal,1969.89,18,17
+0,7,Tottenham,1769.41,9,0
+0,7,Newcastle United,1847.77,17,10
+0,7,Aston Villa,1800.47,14,3
+0,7,Chelsea,1832.33,15,5
+0,7,Man City,2063.94,14,11
+0,7,Everton,1706.59,10,0
+0,7,Fulham,1724.91,11,2
+0,7,Leicester,1639.24,7,-2
+0,7,Crystal Palace,1740.66,7,-5
+0,7,Bournemouth,1655.4,4,-11
+0,7,Nottingham Forest,1697.67,17,6
+0,7,Brighton,1732.06,13,5
+0,7,Ipswich,1562.69,6,-11
+0,7,Man United,1776.89,6,-8
+0,7,Brentford,1663.44,4,-5
+0,7,Wolverhampton,1652.95,4,-8
+0,7,Southampton,1557.95,0,-14
+0,7,West Ham United,1717.92,9,-2
+0,8,Liverpool,1904.05,16,8
+0,8,Arsenal,1972.06,21,19
+0,8,Tottenham,1756.53,9,-2
+0,8,Newcastle United,1835,17,9
+0,8,Aston Villa,1813.24,17,4
+0,8,Chelsea,1838.43,18,9
+0,8,Man City,2066.44,17,13
+0,8,Everton,1717.8,13,1
+0,8,Fulham,1713.65,11,1
+0,8,Leicester,1651.09,10,0
+0,8,Crystal Palace,1734.56,7,-9
+0,8,Bournemouth,1653.23,4,-13
+0,8,Nottingham Forest,1686.46,17,5
+0,8,Brighton,1743.32,16,6
+0,8,Ipswich,1559.47,6,-12
+0,8,Man United,1774.39,6,-10
+0,8,Brentford,1667.66,5,-5
+0,8,Wolverhampton,1641.1,4,-10
+0,8,Southampton,1553.72,1,-14
+0,8,West Ham United,1730.79,12,0
+0,9,Liverpool,1906.86,19,9
+0,9,Arsenal,1974.22,24,20
+0,9,Tottenham,1752.96,10,-2
+0,9,Newcastle United,1838.58,18,9
+0,9,Aston Villa,1819.15,20,9
+0,9,Chelsea,1844.71,21,13
+0,9,Man City,2069.9,20,16
+0,9,Everton,1722.41,16,2
+0,9,Fulham,1707.74,11,-4
+0,9,Leicester,1644.82,10,-4
+0,9,Crystal Palace,1743.7,10,-8
+0,9,Bournemouth,1644.09,4,-14
+0,9,Nottingham Forest,1682.65,18,5
+0,9,Brighton,1739.86,16,3
+0,9,Ipswich,1554.87,6,-13
+0,9,Man United,1778.19,7,-10
+0,9,Brentford,1664.49,6,-5
+0,9,Wolverhampton,1638.29,4,-11
+0,9,Southampton,1551.56,1,-15
+0,9,West Ham United,1733.97,13,0
+0,10,Liverpool,1903.58,20,9
+0,10,Arsenal,1977.51,25,20
+0,10,Tottenham,1740.65,10,-5
+0,10,Newcastle United,1845.65,21,11
+0,10,Aston Villa,1826.26,23,10
+0,10,Chelsea,1848.51,24,14
+0,10,Man City,2071.84,23,20
+0,10,Everton,1734.72,19,5
+0,10,Fulham,1710.91,12,-4
+0,10,Leicester,1641.64,11,-4
+0,10,Crystal Palace,1749.74,11,-8
+0,10,Bournemouth,1640.29,4,-15
+0,10,Nottingham Forest,1675.58,18,3
+0,10,Brighton,1748.43,19,6
+0,10,Ipswich,1549.45,6,-15
+0,10,Man United,1783.61,10,-8
+0,10,Brentford,1657.38,6,-6
+0,10,Wolverhampton,1629.72,4,-14
+0,10,Southampton,1545.52,2,-15
+0,10,West Ham United,1732.03,13,-4
+0,11,Liverpool,1906.91,23,12
+0,11,Arsenal,1980.31,26,20
+0,11,Tottenham,1724.62,10,-6
+0,11,Newcastle United,1840.3,21,8
+0,11,Aston Villa,1823.46,24,10
+0,11,Chelsea,1838.12,24,13
+0,11,Man City,2077.19,26,23
+0,11,Everton,1738.26,20,5
+0,11,Fulham,1708.85,13,-4
+0,11,Leicester,1650.14,14,-3
+0,11,Crystal Palace,1761.17,14,-7
+0,11,Bournemouth,1631.79,4,-16
+0,11,Nottingham Forest,1672.24,18,0
+0,11,Brighton,1737,19,5
+0,11,Ipswich,1565.48,9,-14
+0,11,Man United,1794,13,-7
+0,11,Brentford,1653.83,7,-6
+0,11,Wolverhampton,1618.78,4,-15
+0,11,Southampton,1556.46,5,-14
+0,11,West Ham United,1734.08,14,-4
+0,12,Liverpool,1912.92,26,16
+0,12,Arsenal,1983.43,29,22
+0,12,Tottenham,1734.59,13,-4
+0,12,Newcastle United,1844.63,24,11
+0,12,Aston Villa,1829.31,27,13
+0,12,Chelsea,1823.92,24,11
+0,12,Man City,2077.91,29,24
+0,12,Everton,1735.14,20,3
+0,12,Fulham,1702.84,13,-8
+0,12,Leicester,1641.71,14,-4
+0,12,Crystal Palace,1761.7,15,-7
+0,12,Bournemouth,1643.33,7,-15
+0,12,Nottingham Forest,1662.27,18,-2
+0,12,Brighton,1725.46,19,4
+0,12,Ipswich,1561.15,9,-17
+0,12,Man United,1793.47,14,-7
+0,12,Brentford,1662.26,10,-5
+0,12,Wolverhampton,1612.93,4,-18
+0,12,Southampton,1555.75,5,-15
+0,12,West Ham United,1748.28,17,-2
+0,13,Liverpool,1906.08,26,15
+0,13,Arsenal,1986.92,32,24
+0,13,Tottenham,1741.17,16,-2
+0,13,Newcastle United,1851.35,25,11
+0,13,Aston Villa,1832.05,30,14
+0,13,Chelsea,1828.38,27,14
+0,13,Man City,2084.75,32,25
+0,13,Everton,1737.5,21,3
+0,13,Fulham,1700.48,14,-8
+0,13,Leicester,1633.66,14,-6
+0,13,Crystal Palace,1769.75,18,-5
+0,13,Bournemouth,1637.55,7,-16
+0,13,Nottingham Forest,1658.78,18,-4
+0,13,Brighton,1738.76,22,5
+0,13,Ipswich,1558.41,9,-18
+0,13,Man United,1780.17,14,-8
+0,13,Brentford,1655.68,10,-7
+0,13,Wolverhampton,1606.21,5,-18
+0,13,Southampton,1551.29,5,-18
+0,13,West Ham United,1754.06,20,-1
+0,14,Liverpool,1912.86,29,16
+0,14,Arsenal,1988.7,35,27
+0,14,Tottenham,1739.31,16,-6
+0,14,Newcastle United,1857.42,28,14
+0,14,Aston Villa,1843.41,33,15
+0,14,Chelsea,1817.02,27,13
+0,14,Man City,2086.61,35,29
+0,14,Everton,1725.24,21,0
+0,14,Fulham,1685.28,14,-9
+0,14,Leicester,1631.89,14,-9
+0,14,Crystal Palace,1771.66,19,-5
+0,14,Bournemouth,1634.98,8,-16
+0,14,Nottingham Forest,1667.38,21,-2
+0,14,Brighton,1731.98,22,4
+0,14,Ipswich,1549.81,9,-20
+0,14,Man United,1782.74,15,-8
+0,14,Brentford,1649.61,10,-10
+0,14,Wolverhampton,1618.47,8,-15
+0,14,Southampton,1566.49,8,-17
+0,14,West Ham United,1752.16,21,-1
+0,15,Liverpool,1916.86,30,16
+0,15,Arsenal,1993.54,38,28
+0,15,Tottenham,1734.46,16,-7
+0,15,Newcastle United,1863.09,29,14
+0,15,Aston Villa,1846.81,34,15
+0,15,Chelsea,1813.02,28,13
+0,15,Man City,2068.4,35,28
+0,15,Everton,1711.38,21,-2
+0,15,Fulham,1679.61,15,-9
+0,15,Leicester,1650.1,17,-8
+0,15,Crystal Palace,1768.26,20,-5
+0,15,Bournemouth,1648.84,11,-14
+0,15,Nottingham Forest,1655.41,21,-3
+0,15,Brighton,1735.16,23,4
+0,15,Ipswich,1540.31,9,-21
+0,15,Man United,1793.33,18,-3
+0,15,Brentford,1661.57,13,-9
+0,15,Wolverhampton,1627.97,11,-14
+0,15,Southampton,1563.32,9,-17
+0,15,West Ham United,1741.56,21,-6
+0,16,Liverpool,1924.13,33,18
+0,16,Arsenal,1998.74,41,29
+0,16,Tottenham,1722.88,16,-8
+0,16,Newcastle United,1857.89,29,13
+0,16,Aston Villa,1843.37,34,13
+0,16,Chelsea,1818.88,31,14
+0,16,Man City,2071.84,38,30
+0,16,Everton,1705.51,21,-3
+0,16,Fulham,1681.75,16,-9
+0,16,Leicester,1645.18,17,-9
+0,16,Crystal Palace,1760.98,20,-7
+0,16,Bournemouth,1655.1,14,-12
+0,16,Nottingham Forest,1653.27,22,-3
+0,16,Brighton,1743.87,26,9
+0,16,Ipswich,1535.72,10,-21
+0,16,Man United,1798.25,21,-2
+0,16,Brentford,1666.17,14,-9
+0,16,Wolverhampton,1639.55,14,-13
+0,16,Southampton,1557.06,9,-19
+0,16,West Ham United,1732.85,21,-11
+0,17,Liverpool,1926.86,36,21
+0,17,Arsenal,2002.05,44,31
+0,17,Tottenham,1714.16,16,-10
+0,17,Newcastle United,1861.91,30,13
+0,17,Aston Villa,1849.29,37,14
+0,17,Chelsea,1827.6,34,16
+0,17,Man City,2074.65,41,31
+0,17,Everton,1702.71,21,-4
+0,17,Fulham,1689.09,19,-8
+0,17,Leicester,1656.22,20,-8
+0,17,Crystal Palace,1756.96,21,-7
+0,17,Bournemouth,1652.37,14,-15
+0,17,Nottingham Forest,1661.42,25,-1
+0,17,Brighton,1737.96,26,8
+0,17,Ipswich,1528.38,10,-22
+0,17,Man United,1803.27,24,0
+0,17,Brentford,1662.86,14,-11
+0,17,Wolverhampton,1631.4,14,-15
+0,17,Southampton,1552.04,9,-21
+0,17,West Ham United,1721.8,21,-12
+0,18,Liverpool,1934.81,39,22
+0,18,Arsenal,1982.97,44,30
+0,18,Tottenham,1724.92,19,-9
+0,18,Newcastle United,1872.4,33,14
+0,18,Aston Villa,1855.32,40,17
+0,18,Chelsea,1817.11,34,15
+0,18,Man City,2075.94,44,34
+0,18,Everton,1715.66,24,0
+0,18,Fulham,1678.33,19,-9
+0,18,Leicester,1669.87,23,-6
+0,18,Crystal Palace,1744.01,21,-11
+0,18,Bournemouth,1646.33,14,-18
+0,18,Nottingham Forest,1660.13,25,-4
+0,18,Brighton,1724.31,26,6
+0,18,Ipswich,1547.45,13,-21
+0,18,Man United,1795.32,24,-1
+0,18,Brentford,1673.43,17,-9
+0,18,Wolverhampton,1620.83,14,-17
+0,18,Southampton,1567.67,12,-20
+0,18,West Ham United,1706.18,21,-13
+0,19,Liverpool,1938.14,42,24
+0,19,Arsenal,1985.84,47,32
+0,19,Tottenham,1713.99,19,-10
+0,19,Newcastle United,1879.03,34,14
+0,19,Aston Villa,1862.23,43,19
+0,19,Chelsea,1824.16,37,16
+0,19,Man City,2057.14,44,33
+0,19,Everton,1716.88,25,0
+0,19,Fulham,1677.01,20,-9
+0,19,Leicester,1675.72,26,-2
+0,19,Crystal Palace,1754.94,24,-10
+0,19,Bournemouth,1639.7,15,-18
+0,19,Nottingham Forest,1653.08,25,-5
+0,19,Brighton,1723.08,27,6
+0,19,Ipswich,1566.24,16,-20
+0,19,Man United,1788.42,24,-3
+0,19,Brentford,1674.76,18,-9
+0,19,Wolverhampton,1617.96,14,-19
+0,19,Southampton,1561.82,12,-24
+0,19,West Ham United,1702.85,21,-15
+0,20,Liverpool,1945.32,43,24
+0,20,Arsenal,1990.38,50,34
+0,20,Tottenham,1720.53,22,-8
+0,20,Newcastle United,1865.16,34,13
+0,20,Aston Villa,1864.56,46,22
+0,20,Chelsea,1819.62,37,14
+0,20,Man City,2039.73,44,32
+0,20,Everton,1718.74,26,0
+0,20,Fulham,1677.23,21,-9
+0,20,Leicester,1668.54,27,-2
+0,20,Crystal Palace,1761.18,27,-8
+0,20,Bournemouth,1633.16,15,-20
+0,20,Nottingham Forest,1652.55,26,-5
+0,20,Brighton,1723.62,28,6
+0,20,Ipswich,1560,16,-22
+0,20,Man United,1802.29,27,-2
+0,20,Brentford,1692.17,21,-8
+0,20,Wolverhampton,1617.74,15,-19
+0,20,Southampton,1559.49,12,-27
+0,20,West Ham United,1700.99,22,-15
+0,21,Liverpool,1947.86,46,25
+0,21,Arsenal,1996.75,51,34
+0,21,Tottenham,1720.55,23,-8
+0,21,Newcastle United,1852.62,34,12
+0,21,Aston Villa,1871.43,49,23
+0,21,Chelsea,1822.49,40,16
+0,21,Man City,2040.96,47,35
+0,21,Everton,1712.44,26,-1
+0,21,Fulham,1670.85,22,-9
+0,21,Leicester,1668.53,28,-2
+0,21,Crystal Palace,1747.85,27,-9
+0,21,Bournemouth,1634.08,16,-20
+0,21,Nottingham Forest,1651.63,27,-5
+0,21,Brighton,1736.16,31,7
+0,21,Ipswich,1557.14,16,-24
+0,21,Man United,1808.6,30,-1
+0,21,Brentford,1705.5,24,-7
+0,21,Wolverhampton,1616.51,15,-22
+0,21,Southampton,1556.94,12,-28
+0,21,West Ham United,1694.12,22,-16
+0,22,Liverpool,1953.01,49,29
+0,22,Arsenal,2006.54,54,35
+0,22,Tottenham,1721.57,24,-8
+0,22,Newcastle United,1855.01,37,15
+0,22,Aston Villa,1875.19,52,25
+0,22,Chelsea,1830.62,43,18
+0,22,Man City,2031.17,47,34
+0,22,Everton,1707.29,26,-5
+0,22,Fulham,1670.12,23,-9
+0,22,Leicester,1664.77,28,-4
+0,22,Crystal Palace,1748.58,28,-9
+0,22,Bournemouth,1643.34,19,-19
+0,22,Nottingham Forest,1661.38,30,-4
+0,22,Brighton,1735.14,32,7
+0,22,Ipswich,1547.88,16,-25
+0,22,Man United,1814.75,33,0
+0,22,Brentford,1697.37,24,-9
+0,22,Wolverhampton,1610.35,15,-23
+0,22,Southampton,1554.55,12,-31
+0,22,West Ham United,1684.37,22,-17
+0,23,Liverpool,1959.45,52,30
+0,23,Arsenal,2010.94,57,39
+0,23,Tottenham,1717.64,25,-8
+0,23,Newcastle United,1861.7,40,17
+0,23,Aston Villa,1868.75,52,24
+0,23,Chelsea,1834.08,46,20
+0,23,Man City,2032.87,50,39
+0,23,Everton,1707.04,27,-5
+0,23,Fulham,1668.41,23,-14
+0,23,Leicester,1665.02,29,-4
+0,23,Crystal Palace,1754.8,31,-6
+0,23,Bournemouth,1653.42,22,-18
+0,23,Nottingham Forest,1655.17,30,-7
+0,23,Brighton,1730.74,32,3
+0,23,Ipswich,1559.53,19,-22
+0,23,Man United,1818.69,34,0
+0,23,Brentford,1687.29,24,-10
+0,23,Wolverhampton,1606.89,15,-25
+0,23,Southampton,1542.9,12,-34
+0,23,West Ham United,1677.68,22,-19
+0,24,Liverpool,1968.13,55,31
+0,24,Arsenal,2013.85,60,42
+0,24,Tottenham,1714.84,26,-8
+0,24,Newcastle United,1853.03,40,16
+0,24,Aston Villa,1871.54,53,24
+0,24,Chelsea,1850.25,49,22
+0,24,Man City,2016.7,50,37
+0,24,Everton,1691.52,27,-6
+0,24,Fulham,1656.53,23,-15
+0,24,Leicester,1656.21,29,-6
+0,24,Crystal Palace,1751.88,31,-9
+0,24,Bournemouth,1665.3,25,-17
+0,24,Nottingham Forest,1663.98,33,-5
+0,24,Brighton,1734.06,33,3
+0,24,Ipswich,1556.21,20,-22
+0,24,Man United,1826.42,37,3
+0,24,Brentford,1679.56,24,-13
+0,24,Wolverhampton,1597.45,15,-27
+0,24,Southampton,1558.41,15,-33
+0,24,West Ham United,1687.12,25,-17
+0,25,Liverpool,1975.17,56,31
+0,25,Arsenal,2020.12,63,46
+0,25,Tottenham,1707.79,27,-8
+0,25,Newcastle United,1859.07,43,19
+0,25,Aston Villa,1877.37,54,24
+0,25,Chelsea,1834.17,49,21
+0,25,Man City,2023.68,51,37
+0,25,Everton,1685.7,28,-6
+0,25,Fulham,1672.6,26,-14
+0,25,Leicester,1650.17,29,-9
+0,25,Crystal Palace,1756.57,34,-8
+0,25,Bournemouth,1658.32,26,-17
+0,25,Nottingham Forest,1672.43,36,-4
+0,25,Brighton,1721.11,33,1
+0,25,Ipswich,1551.4,21,-22
+0,25,Man United,1820.15,37,-1
+0,25,Brentford,1692.51,27,-11
+0,25,Wolverhampton,1592.76,15,-28
+0,25,Southampton,1549.96,15,-34
+0,25,West Ham United,1691.93,26,-17
+0,26,Liverpool,1981,57,31
+0,26,Arsenal,2022.15,66,50
+0,26,Tottenham,1712.41,30,-5
+0,26,Newcastle United,1843.38,43,18
+0,26,Aston Villa,1881.52,55,24
+0,26,Chelsea,1819.76,49,19
+0,26,Man City,2026.44,54,39
+0,26,Everton,1701.4,31,-5
+0,26,Fulham,1665.31,26,-17
+0,26,Leicester,1658.81,32,-7
+0,26,Crystal Palace,1753.81,34,-10
+0,26,Bournemouth,1647.91,26,-19
+0,26,Nottingham Forest,1668.27,37,-4
+0,26,Brighton,1735.52,36,3
+0,26,Ipswich,1542.76,21,-24
+0,26,Man United,1827.45,40,2
+0,26,Brentford,1686.69,28,-11
+0,26,Wolverhampton,1603.17,18,-26
+0,26,Southampton,1545.34,15,-37
+0,26,West Ham United,1689.9,26,-21
+0,27,Liverpool,1982.12,60,35
+0,27,Arsenal,2029.45,67,50
+0,27,Tottenham,1711.58,31,-5
+0,27,Newcastle United,1840.86,44,18
+0,27,Aston Villa,1884.04,56,24
+0,27,Chelsea,1829.34,52,22
+0,27,Man City,2032.43,57,40
+0,27,Everton,1689.01,31,-8
+0,27,Fulham,1661.94,27,-17
+0,27,Leicester,1645.82,32,-8
+0,27,Crystal Palace,1744.23,34,-13
+0,27,Bournemouth,1640.61,27,-19
+0,27,Nottingham Forest,1680.66,40,-1
+0,27,Brighton,1738.88,37,3
+0,27,Ipswich,1541.63,21,-28
+0,27,Man United,1821.46,40,1
+0,27,Brentford,1689.22,29,-11
+0,27,Wolverhampton,1616.16,21,-25
+0,27,Southampton,1542.81,16,-37
+0,27,West Ham United,1690.73,27,-21
+0,28,Liverpool,1984.93,63,36
+0,28,Arsenal,2030.31,70,52
+0,28,Tottenham,1703.79,31,-8
+0,28,Newcastle United,1848.65,47,21
+0,28,Aston Villa,1889.49,59,26
+0,28,Chelsea,1835.23,53,22
+0,28,Man City,2034.85,60,42
+0,28,Everton,1696.32,34,-6
+0,28,Fulham,1656.5,27,-19
+0,28,Leicester,1639.94,33,-8
+0,28,Crystal Palace,1748.42,35,-13
+0,28,Bournemouth,1636.42,28,-19
+0,28,Nottingham Forest,1678.14,41,-1
+0,28,Brighton,1736.46,37,1
+0,28,Ipswich,1534.33,21,-30
+0,28,Man United,1823.98,41,1
+0,28,Brentford,1677.8,29,-13
+0,28,Wolverhampton,1613.35,21,-26
+0,28,Southampton,1541.94,16,-39
+0,28,West Ham United,1702.15,30,-19
+0,29,Liverpool,1985.1,64,36
+0,29,Arsenal,2030.14,71,52
+0,29,Tottenham,1715.04,34,-7
+0,29,Newcastle United,1853.01,50,22
+0,29,Aston Villa,1893.09,62,27
+0,29,Chelsea,1821.22,53,21
+0,29,Man City,2038.15,63,45
+0,29,Everton,1685.06,34,-7
+0,29,Fulham,1655.5,28,-19
+0,29,Leicester,1640.93,34,-8
+0,29,Crystal Palace,1754.23,38,-8
+0,29,Bournemouth,1650.43,31,-18
+0,29,Nottingham Forest,1673.77,41,-2
+0,29,Brighton,1721.83,37,-4
+0,29,Ipswich,1531.86,21,-32
+0,29,Man United,1826.45,44,3
+0,29,Brentford,1674.19,29,-14
+0,29,Wolverhampton,1627.99,24,-21
+0,29,Southampton,1536.13,16,-44
+0,29,West Ham United,1698.85,30,-22
+0,30,Liverpool,1988.76,67,38
+0,30,Arsenal,2035.2,74,53
+0,30,Tottenham,1721.42,37,-5
+0,30,Newcastle United,1847.1,51,22
+0,30,Aston Villa,1888.04,62,26
+0,30,Chelsea,1809.91,53,18
+0,30,Man City,2044.07,64,45
+0,30,Everton,1683.9,35,-7
+0,30,Fulham,1665.27,31,-18
+0,30,Leicester,1639.2,35,-8
+0,30,Crystal Palace,1741.86,38,-9
+0,30,Bournemouth,1652.16,32,-18
+0,30,Nottingham Forest,1670.12,41,-4
+0,30,Brighton,1734.19,40,-3
+0,30,Ipswich,1525.49,21,-34
+0,30,Man United,1837.76,47,6
+0,30,Brentford,1675.35,30,-14
+0,30,Wolverhampton,1634.08,27,-17
+0,30,Southampton,1530.04,16,-48
+0,30,West Ham United,1689.08,30,-23
+0,31,Liverpool,1970.83,67,36
+0,31,Arsenal,2038.22,77,57
+0,31,Tottenham,1708.55,37,-6
+0,31,Newcastle United,1849.19,54,23
+0,31,Aston Villa,1890.98,65,27
+0,31,Chelsea,1817.93,56,19
+0,31,Man City,2045.37,67,48
+0,31,Everton,1680.88,35,-11
+0,31,Fulham,1683.2,34,-16
+0,31,Leicester,1628.76,35,-9
+0,31,Crystal Palace,1737.86,39,-9
+0,31,Bournemouth,1648.5,33,-18
+0,31,Nottingham Forest,1682.99,44,-3
+0,31,Brighton,1737.85,41,-3
+0,31,Ipswich,1523.39,21,-35
+0,31,Man United,1841.76,48,6
+0,31,Brentford,1685.79,33,-13
+0,31,Wolverhampton,1631.14,27,-18
+0,31,Southampton,1528.73,16,-51
+0,31,West Ham United,1681.05,30,-24
+0,32,Liverpool,1964.31,67,35
+0,32,Arsenal,2039.97,80,59
+0,32,Tottenham,1719.37,40,-5
+0,32,Newcastle United,1834.73,54,22
+0,32,Aston Villa,1893.77,68,28
+0,32,Chelsea,1820.4,59,20
+0,32,Man City,2051.9,70,49
+0,32,Everton,1679.35,36,-11
+0,32,Fulham,1684.73,35,-16
+0,32,Leicester,1623.08,35,-11
+0,32,Crystal Palace,1743.55,42,-7
+0,32,Bournemouth,1637.97,33,-19
+0,32,Nottingham Forest,1681.23,44,-5
+0,32,Brighton,1736.35,42,-3
+0,32,Ipswich,1520.61,21,-36
+0,32,Man United,1843.27,49,6
+0,32,Brentford,1674.97,33,-14
+0,32,Wolverhampton,1645.6,30,-17
+0,32,Southampton,1526.26,16,-52
+0,32,West Ham United,1691.59,33,-23
+0,33,Liverpool,1967.64,70,38
+0,33,Arsenal,2042.15,83,65
+0,33,Tottenham,1716.06,40,-11
+0,33,Newcastle United,1819.3,54,21
+0,33,Aston Villa,1880.33,68,27
+0,33,Chelsea,1833.84,62,21
+0,33,Man City,2055.21,73,55
+0,33,Everton,1666.95,36,-13
+0,33,Fulham,1687.72,36,-16
+0,33,Leicester,1620.91,35,-17
+0,33,Crystal Palace,1733.53,42,-10
+0,33,Bournemouth,1654.25,36,-15
+0,33,Nottingham Forest,1685.79,47,-4
+0,33,Brighton,1733.01,42,-6
+0,33,Ipswich,1516.05,21,-37
+0,33,Man United,1826.98,49,2
+0,33,Brentford,1690.39,36,-13
+0,33,Wolverhampton,1658,33,-15
+0,33,Southampton,1523.27,17,-52
+0,33,West Ham United,1701.61,36,-20
+0,34,Liverpool,1975.31,73,39
+0,34,Arsenal,2044.19,86,68
+0,34,Tottenham,1714.02,40,-14
+0,34,Newcastle United,1827.03,57,22
+0,34,Aston Villa,1887.65,71,30
+0,34,Chelsea,1826.17,62,20
+0,34,Man City,2056.36,76,56
+0,34,Everton,1665.85,37,-13
+0,34,Fulham,1679.99,36,-17
+0,34,Leicester,1619.75,35,-18
+0,34,Crystal Palace,1726.21,42,-13
+0,34,Bournemouth,1655.35,37,-15
+0,34,Nottingham Forest,1684.19,48,-4
+0,34,Brighton,1736.65,45,-2
+0,34,Ipswich,1511,22,-37
+0,34,Man United,1812.3,49,1
+0,34,Brentford,1691.99,37,-13
+0,34,Wolverhampton,1663.05,34,-15
+0,34,Southampton,1519.63,17,-56
+0,34,West Ham United,1716.3,39,-19
+0,35,Liverpool,1978.33,76,43
+0,35,Arsenal,2049.75,89,71
+0,35,Tottenham,1721.16,43,-10
+0,35,Newcastle United,1821.47,57,19
+0,35,Aston Villa,1880.9,71,29
+0,35,Chelsea,1833.13,65,22
+0,35,Man City,2063.1,79,57
+0,35,Everton,1658.89,37,-15
+0,35,Fulham,1691.58,39,-15
+0,35,Leicester,1615.9,36,-18
+0,35,Crystal Palace,1723.2,42,-17
+0,35,Bournemouth,1662.97,40,-14
+0,35,Nottingham Forest,1672.61,48,-6
+0,35,Brighton,1735.76,46,-2
+0,35,Ipswich,1507.43,23,-37
+0,35,Man United,1816.15,50,1
+0,35,Brentford,1695.55,38,-13
+0,35,Wolverhampton,1655.92,34,-19
+0,35,Southampton,1512.02,17,-57
+0,35,West Ham United,1717.19,40,-19
+0,36,Liverpool,1981.92,79,46
+0,36,Arsenal,2057.98,90,71
+0,36,Tottenham,1735.54,46,-9
+0,36,Newcastle United,1822.82,58,19
+0,36,Aston Villa,1888.26,74,30
+0,36,Chelsea,1818.75,65,21
+0,36,Man City,2064.46,82,59
+0,36,Everton,1657.53,37,-17
+0,36,Fulham,1675.68,39,-16
+0,36,Leicester,1630.03,39,-16
+0,36,Crystal Palace,1721.85,43,-17
+0,36,Bournemouth,1659.38,40,-17
+0,36,Nottingham Forest,1671.62,49,-6
+0,36,Brighton,1728.4,46,-3
+0,36,Ipswich,1523.33,26,-36
+0,36,Man United,1818.44,53,5
+0,36,Brentford,1687.32,39,-13
+0,36,Wolverhampton,1656.91,35,-19
+0,36,Southampton,1509.73,17,-61
+0,36,West Ham United,1703.06,40,-21
+0,37,Liverpool,1986.42,82,48
+0,37,Arsenal,2059.15,93,73
+0,37,Tottenham,1742.44,49,-8
+0,37,Newcastle United,1811.24,58,17
+0,37,Aston Villa,1891.59,77,32
+0,37,Chelsea,1830.33,68,23
+0,37,Man City,2066.91,85,63
+0,37,Everton,1647.91,37,-18
+0,37,Fulham,1668.77,39,-17
+0,37,Leicester,1628.68,40,-16
+0,37,Crystal Palace,1731.48,46,-16
+0,37,Bournemouth,1656.06,40,-19
+0,37,Nottingham Forest,1669.16,49,-10
+0,37,Brighton,1729.74,47,-3
+0,37,Ipswich,1522.16,26,-38
+0,37,Man United,1813.94,53,3
+0,37,Brentford,1675.01,39,-14
+0,37,Wolverhampton,1669.22,38,-18
+0,37,Southampton,1503.6,17,-62
+0,37,West Ham United,1709.18,43,-20
+0,38,Liverpool,1970.7,82,46
+0,38,Arsenal,2060.61,96,76
+0,38,Tottenham,1741.29,50,-8
+0,38,Newcastle United,1814.14,59,17
+0,38,Aston Villa,1900.83,80,35
+0,38,Chelsea,1814.88,68,22
+0,38,Man City,2067.54,88,65
+0,38,Everton,1641.56,37,-19
+0,38,Fulham,1657.48,39,-18
+0,38,Leicester,1616.59,40,-17
+0,38,Crystal Palace,1732.64,47,-16
+0,38,Bournemouth,1653.15,41,-19
+0,38,Nottingham Forest,1684.61,52,-9
+0,38,Brighton,1736.09,50,-2
+0,38,Ipswich,1521.54,26,-40
+0,38,Man United,1804.7,53,0
+0,38,Brentford,1686.3,42,-13
+0,38,Wolverhampton,1667.76,38,-21
+0,38,Southampton,1515.69,20,-61
+0,38,West Ham United,1724.9,46,-18

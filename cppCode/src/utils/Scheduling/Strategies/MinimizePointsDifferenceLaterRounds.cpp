@@ -2,23 +2,34 @@
 
 MinimizePointsDifferenceLaterRounds::MinimizePointsDifferenceLaterRounds() = default;
 
-void MinimizePointsDifferenceLaterRounds::setObjective(const IloEnv& env, const IloModel& model, const std::vector<std::vector<std::vector<IloNumVar>>>& x, Tournament& tournament) const {
-    IloExpr objective(env);
+void MinimizePointsDifferenceLaterRounds::setObjective(const IloEnv &env, const IloModel &model, const std::vector<std::vector<std::vector<IloNumVar> > > &x, Tournament &tournament) const {
 
-    const int numberRounds = tournament.getNumberRounds() / 2;
-    const int numberTeams = tournament.getNumberTeams();
 
-    for (int t = 0; t < numberRounds; t++) {
-        const double weight = (t >= numberRounds - 5 && t < numberRounds - 1) ? 1000.0 : static_cast<double>((t * 100000 + 1) * (t * 500 + 1)) / numberRounds; // Higher weight for rounds closer to the end
-        for (int i = 0; i < numberTeams; i++) {
-            for (int j = 0; j < numberTeams; j++) {
-                if (i != j) {
-                    const int pointsDifference = std::abs(tournament.getTeamManager()->getTeam(i)->getPoints() - tournament.getTeamManager()->getTeam(j)->getPoints());
-                    objective += weight * pointsDifference * x[i][j][t];
-                }
+    if(tournament.getNumberDynamicRounds() > 0) {
+
+    }
+    IloExpr expr(env);
+
+    const int numTeams       = tournament.getNumberTeams();
+    const int numDynamic     = tournament.getNumberDynamicRounds(); // should be 19
+    const int K              = 1;                                  // last 4 rounds
+    const int startRound     = numDynamic - K;                     // zero-based index
+
+    // Loop only over Rounds 36, 37, 38, 39 (i.e. dynamic indices 15–18)
+    for (int s = startRound; s < numDynamic; ++s) {
+        // Optional: you can ramp up weight so that Round 38 matters the most
+        double w = 1.0 + 0.2 * (s - startRound);
+        for (int i = 0; i < numTeams; ++i) {
+            for (int j = i + 1; j < numTeams; ++j) {
+                double gap = std::abs(
+                    tournament.getTeamManager()->getTeam(i)->getPoints()
+                  - tournament.getTeamManager()->getTeam(j)->getPoints()
+                );
+                expr += w * gap * (x[i][j][s] + x[j][i][s]);
             }
         }
     }
-    model.add(IloMinimize(env, objective));
-    objective.end();
+
+    model.add(IloMaximize(env, expr));
+    expr.end();
 }

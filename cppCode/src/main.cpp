@@ -17,16 +17,15 @@
 #include "utils/Scheduling/Schedulers/ChampionsLeagueScheduler.h"
 #include "tournament/ChampionsLeague.h"
 #include "utils/Metrics/ChampionsLeagueMetrics.h"
-
-
+#include "utils/Scheduling/Strategies/MinimizeRatingDifference.h"
 
 
 int main() {
 
     std::mt19937 randomNumberGenerator(1234);
     auto* premierLeague = new DoubleRoundRobin(20,0);
-    premierLeague->getScheduler().setSchedulingStrategy(new MinimizePointsDifferenceLaterRounds());
+    premierLeague->getScheduler().setSchedulingStrategy(new MinimizeRatingDifference());
     const MonteCarloSimulator simulator(premierLeague);
-    simulator.runSimulations(5, 5, randomNumberGenerator);
+    simulator.runSimulations(100, 30, randomNumberGenerator);
 }
 
