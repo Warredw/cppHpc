@@ -1,0 +1,21 @@
+team,points
+Man City,86
+Arsenal,75
+Liverpool,72
+Chelsea,68
+Newcastle United,66
+Crystal Palace,66
+Tottenham,63
+Nottingham Forest,55
+Aston Villa,51
+Fulham,49
+Wolverhampton,46
+Everton,45
+Brighton,39
+Bournemouth,35
+Leicester,34
+West Ham United,33
+Man United,32
+Brentford,30
+Southampton,20
+Ipswich,19
