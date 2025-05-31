@@ -32,16 +32,15 @@ int main(int argc, char** argv) {
     
     std::mt19937 randomNumberGenerator(1234);
 
-
+    /*
     auto* premierLeague = new DoubleRoundRobin(20,19);
     premierLeague->getScheduler().setSchedulingStrategy(new MinimizePointsDifferenceLaterRounds());
-
-    /*
-    auto* championsLeague = new ChampionsLeague(36, 2);
-    auto* metrics = new ChampionsLeagueMetrics();
     */
 
-    const MonteCarloSimulator simulator(premierLeague);
+    auto* championsLeague = new ChampionsLeague(36, 1);
+    auto* metrics = new ChampionsLeagueMetrics();
+
+
+    const MonteCarloSimulator simulator(championsLeague);
     simulator.runSimulations(100, 30, randomNumberGenerator);
 }
-

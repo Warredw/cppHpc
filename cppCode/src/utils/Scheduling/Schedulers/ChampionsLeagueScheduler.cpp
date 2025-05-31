@@ -20,7 +20,7 @@ void ChampionsLeagueScheduler::setInitialSchedule(Tournament &tournament, std::m
     addOneHomeGameLastTwoMatches(env, model, x, tournament, matchPairings);
     addMaxTwoAwayGamesInARow(env, model, x, tournament, matchPairings);
     addMaxTwoHomeGamesInARow(env, model, x, tournament, matchPairings);
-    addMilanMadridConstraint(env, model, x, tournament, matchPairings);
+    //addMilanMadridConstraint(env, model, x, tournament, matchPairings);
 
     IloCplex cplex(model);
     cplex.setOut(env.getNullStream());
@@ -34,7 +34,7 @@ void ChampionsLeagueScheduler::setInitialSchedule(Tournament &tournament, std::m
 
             TimeTable lastRound = tournament.getFirstTimeTable();
 
-            lastRound.getRounds().erase(lastRound.getRounds().begin(), lastRound.getRounds().begin()+7);
+            lastRound.getRounds().erase(lastRound.getRounds().begin(), lastRound.getRounds().begin() + tournament.getNumberDynamicRounds());
 
             tournament.setSecondTimeTable(lastRound);
             tournament.getFirstTimeTable().getRounds().pop_back();
@@ -405,7 +405,7 @@ std::vector<std::tuple<int, int>> ChampionsLeagueScheduler::calculateMatchPairin
         playOnceHomePot(env, model, x, tournament);
         playOnceAwayPot(env, model, x, tournament);
         playMaxOnce(env, model, x, tournament);
-        associationConstraint(env, model, x, tournament);
+        //associationConstraint(env, model, x, tournament);
         addObjectiveFunction(env, model, x, tournament, randomNumberGenerator);
 
         cplex.setOut(std::cout);
