@@ -9,10 +9,10 @@ ChampionsLeague::ChampionsLeague(const int numberTeams, const int numberDynamicR
 
 
 void ChampionsLeague::makeInitialSchedule(std::mt19937 &randomNumberGenerator) {
-    std::cout<<"nice"<<std::endl;
+    scheduler.setInitialSchedule(*this, randomNumberGenerator);
 }
 
 void ChampionsLeague::makeSecondSchedule() {
-    std::cout<<"Just to resolve error"<<std::endl;
+    scheduler.setSecondSchedule(*this);
 }
 

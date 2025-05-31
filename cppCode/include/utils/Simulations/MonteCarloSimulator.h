@@ -15,14 +15,13 @@ class MonteCarloSimulator {
 
     DoubleRoundRobin* tournament;
     ChampionsLeague* championsLeague;
-    std::vector<ChampionsLeagueMetrics>* championsLeagueMetrics;
 
 
 public:
     // PL constructor
     explicit MonteCarloSimulator(DoubleRoundRobin* tournament);
     // CL constructor
-    explicit MonteCarloSimulator(ChampionsLeague* tournament, std::vector<ChampionsLeagueMetrics>* championsLeagueMetrics);
+    explicit MonteCarloSimulator(ChampionsLeague* tournament);
 
     void runSimulations(int numberSchedules, int numberSimulations, std::mt19937 randomNumberGenerator) const;
 };

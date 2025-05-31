@@ -31,7 +31,7 @@ public:
   [[nodiscard]] bool teamIsWinner(const std::shared_ptr<Team>& team) const;
   void resetTeams() const;
 
-  void changeTeamRatings(const std::string& distribution) const;
+  void changeTeamRatings(const std::string& distribution, int value) const;
 
 
 

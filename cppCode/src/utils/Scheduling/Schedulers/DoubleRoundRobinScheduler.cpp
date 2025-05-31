@@ -27,7 +27,9 @@ void DoubleRoundRobinScheduler::setInitialSchedule(Tournament &tournament, std::
     addPlayOnceInFirstPartConstraint(env, model, x, tournament.getNumberRounds() / 2, tournament); // each team needs to play once in the first half of the season
     addOneGamePerRoundConstraint(env, model, x, tournament.getNumberRounds() / 2, tournament); // every team needs to have one match in every round
     addHapConstraint(model, env, hapSet, x, true, tournament);
-    setOptimizationObjective(env, model, x, tournament, randomNumberGenerator);
+    //setOptimizationObjective(env, model, x, tournament, randomNumberGenerator);
+
+    schedulingStrategy->setObjective(env, model, x, tournament); // set the objective function based on the scheduling strategy
 
 
     IloCplex cplex(model);

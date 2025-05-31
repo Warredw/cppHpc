@@ -718,6 +718,26 @@ CMakeFiles\cppCode.dir\src\utils\Metrics\Rankings.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\cppCode.dir\src\utils\Metrics\Rankings.cpp.s /c C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Metrics\Rankings.cpp
 <<
 
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: CMakeFiles\cppCode.dir\flags.make
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\StaticObjective.cpp
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: CMakeFiles\cppCode.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\dewae\Desktop\cpp\hpc\cppCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/StaticObjective.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj.d --working-dir=C:\Users\dewae\Desktop\cpp\hpc\cppCode\cmake-build-debug --filter-prefix="Note: including file: " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj /FdCMakeFiles\cppCode.dir\ /FS -c C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\StaticObjective.cpp
+<<
+
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/StaticObjective.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe > CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\StaticObjective.cpp
+<<
+
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/StaticObjective.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.s /c C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\StaticObjective.cpp
+<<
+
 # Object files for target cppCode
 cppCode_OBJECTS = \
 "CMakeFiles\cppCode.dir\src\main.cpp.obj" \
@@ -752,7 +772,8 @@ cppCode_OBJECTS = \
 "CMakeFiles\cppCode.dir\src\utils\TeamManager\NFLTeamManager.cpp.obj" \
 "CMakeFiles\cppCode.dir\src\utils\Metrics\TeamBounds.cpp.obj" \
 "CMakeFiles\cppCode.dir\src\utils\Metrics\RandomForestFeatures.cpp.obj" \
-"CMakeFiles\cppCode.dir\src\utils\Metrics\Rankings.cpp.obj"
+"CMakeFiles\cppCode.dir\src\utils\Metrics\Rankings.cpp.obj" \
+"CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj"
 
 # External object files for target cppCode
 cppCode_EXTERNAL_OBJECTS =
@@ -790,6 +811,7 @@ build\bin\cppCode.exe: CMakeFiles\cppCode.dir\src\utils\TeamManager\NFLTeamManag
 build\bin\cppCode.exe: CMakeFiles\cppCode.dir\src\utils\Metrics\TeamBounds.cpp.obj
 build\bin\cppCode.exe: CMakeFiles\cppCode.dir\src\utils\Metrics\RandomForestFeatures.cpp.obj
 build\bin\cppCode.exe: CMakeFiles\cppCode.dir\src\utils\Metrics\Rankings.cpp.obj
+build\bin\cppCode.exe: CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj
 build\bin\cppCode.exe: CMakeFiles\cppCode.dir\build.make
 build\bin\cppCode.exe: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mdd\cplex2211.lib"
 build\bin\cppCode.exe: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\lib\x64_windows_msvc14\stat_mdd\concert.lib"
@@ -798,7 +820,7 @@ build\bin\cppCode.exe: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cpoptimizer\l
 build\bin\cppCode.exe: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mdd\cplex2211.lib"
 build\bin\cppCode.exe: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\lib\x64_windows_msvc14\stat_mdd\concert.lib"
 build\bin\cppCode.exe: CMakeFiles\cppCode.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\dewae\Desktop\cpp\hpc\cppCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable build\bin\cppCode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\dewae\Desktop\cpp\hpc\cppCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable build\bin\cppCode.exe"
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cppCode.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cppCode.dir\objects1.rsp @<<
  /out:build\bin\cppCode.exe /implib:build\lib\cppCode.lib /pdb:C:\Users\dewae\Desktop\cpp\hpc\cppCode\cmake-build-debug\build\bin\cppCode.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console   -LIBPATH:C:\PROGRA~1\IBM\ILOG\CPLEX_~1\cplex\lib\X64_WI~1\stat_mda\CPLEX2~1.LIB  -LIBPATH:C:\PROGRA~1\IBM\ILOG\CPLEX_~1\concert\lib\X64_WI~1\stat_mda\concert.lib  -LIBPATH:C:\PROGRA~1\IBM\ILOG\CPLEX_~1\cplex\lib\X64_WI~1\stat_mda\ilocplex.lib  -LIBPATH:C:\PROGRA~1\IBM\ILOG\CPLEX_~1\CPOPTI~1\lib\X64_WI~1\stat_mda\cp.lib  "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mdd\cplex2211.lib" "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\lib\x64_windows_msvc14\stat_mdd\concert.lib" "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mdd\ilocplex.lib" "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cpoptimizer\lib\x64_windows_msvc14\stat_mdd\cp.lib" "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mdd\cplex2211.lib" "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\lib\x64_windows_msvc14\stat_mdd\concert.lib" Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

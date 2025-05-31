@@ -1,4 +1,5 @@
 #include <iostream>
+#include <utils/Scheduling/Strategies/StaticObjective.h>
 
 #include "tournament/DoubleRoundRobin.h"
 #include "tournament/Tournament.h"
@@ -23,8 +24,16 @@
 int main() {
 
     std::mt19937 randomNumberGenerator(1234);
-    auto* premierLeague = new DoubleRoundRobin(20,0);
-    premierLeague->getScheduler().setSchedulingStrategy(new MinimizeRatingDifference());
+
+
+    auto* premierLeague = new DoubleRoundRobin(20,19);
+    premierLeague->getScheduler().setSchedulingStrategy(new MinimizePointsDifferenceLaterRounds());
+
+    /*
+    auto* championsLeague = new ChampionsLeague(36, 2);
+    auto* metrics = new ChampionsLeagueMetrics();
+    */
+
     const MonteCarloSimulator simulator(premierLeague);
     simulator.runSimulations(100, 30, randomNumberGenerator);
 }

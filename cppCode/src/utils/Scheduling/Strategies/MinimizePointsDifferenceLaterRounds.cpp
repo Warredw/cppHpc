@@ -12,7 +12,7 @@ void MinimizePointsDifferenceLaterRounds::setObjective(const IloEnv &env, const 
 
     const int numTeams       = tournament.getNumberTeams();
     const int numDynamic     = tournament.getNumberDynamicRounds(); // should be 19
-    const int K              = 1;                                  // last 4 rounds
+    const int K              = 4;                                  // last 4 rounds
     const int startRound     = numDynamic - K;                     // zero-based index
 
     // Loop only over Rounds 36, 37, 38, 39 (i.e. dynamic indices 15–18)
@@ -30,6 +30,6 @@ void MinimizePointsDifferenceLaterRounds::setObjective(const IloEnv &env, const 
         }
     }
 
-    model.add(IloMaximize(env, expr));
+    model.add(IloMinimize(env, expr));
     expr.end();
 }

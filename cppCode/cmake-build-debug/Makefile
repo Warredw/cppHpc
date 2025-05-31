@@ -718,6 +718,30 @@ src\utils\Scheduling\Strategies\SchedulingStrategy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\SchedulingStrategy.cpp.s
 .PHONY : src\utils\Scheduling\Strategies\SchedulingStrategy.cpp.s
 
+src\utils\Scheduling\Strategies\StaticObjective.obj: src\utils\Scheduling\Strategies\StaticObjective.cpp.obj
+.PHONY : src\utils\Scheduling\Strategies\StaticObjective.obj
+
+# target to build an object file
+src\utils\Scheduling\Strategies\StaticObjective.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj
+.PHONY : src\utils\Scheduling\Strategies\StaticObjective.cpp.obj
+
+src\utils\Scheduling\Strategies\StaticObjective.i: src\utils\Scheduling\Strategies\StaticObjective.cpp.i
+.PHONY : src\utils\Scheduling\Strategies\StaticObjective.i
+
+# target to preprocess a source file
+src\utils\Scheduling\Strategies\StaticObjective.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.i
+.PHONY : src\utils\Scheduling\Strategies\StaticObjective.cpp.i
+
+src\utils\Scheduling\Strategies\StaticObjective.s: src\utils\Scheduling\Strategies\StaticObjective.cpp.s
+.PHONY : src\utils\Scheduling\Strategies\StaticObjective.s
+
+# target to generate assembly for a file
+src\utils\Scheduling\Strategies\StaticObjective.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.s
+.PHONY : src\utils\Scheduling\Strategies\StaticObjective.cpp.s
+
 src\utils\Simulations\MonteCarloSimulator.obj: src\utils\Simulations\MonteCarloSimulator.cpp.obj
 .PHONY : src\utils\Simulations\MonteCarloSimulator.obj
 
@@ -994,6 +1018,9 @@ help:
 	@echo ... src/utils/Scheduling/Strategies/SchedulingStrategy.obj
 	@echo ... src/utils/Scheduling/Strategies/SchedulingStrategy.i
 	@echo ... src/utils/Scheduling/Strategies/SchedulingStrategy.s
+	@echo ... src/utils/Scheduling/Strategies/StaticObjective.obj
+	@echo ... src/utils/Scheduling/Strategies/StaticObjective.i
+	@echo ... src/utils/Scheduling/Strategies/StaticObjective.s
 	@echo ... src/utils/Simulations/MonteCarloSimulator.obj
 	@echo ... src/utils/Simulations/MonteCarloSimulator.i
 	@echo ... src/utils/Simulations/MonteCarloSimulator.s

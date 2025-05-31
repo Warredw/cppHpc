@@ -49,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/MinimizeRatingDifference.cpp.obj.d"
   "CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/SchedulingStrategy.cpp.obj"
   "CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/SchedulingStrategy.cpp.obj.d"
+  "CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/StaticObjective.cpp.obj"
+  "CMakeFiles/cppCode.dir/src/utils/Scheduling/Strategies/StaticObjective.cpp.obj.d"
   "CMakeFiles/cppCode.dir/src/utils/Simulations/MonteCarloSimulator.cpp.obj"
   "CMakeFiles/cppCode.dir/src/utils/Simulations/MonteCarloSimulator.cpp.obj.d"
   "CMakeFiles/cppCode.dir/src/utils/Simulations/OutcomeProbabilities.cpp.obj"

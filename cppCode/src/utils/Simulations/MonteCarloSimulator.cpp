@@ -14,11 +14,11 @@
 
 
 MonteCarloSimulator::MonteCarloSimulator(DoubleRoundRobin* tournament)
-    : tournament(tournament),championsLeague(nullptr), championsLeagueMetrics(nullptr) {
+    : tournament(tournament),championsLeague(nullptr) {
 }
 
-MonteCarloSimulator::MonteCarloSimulator(ChampionsLeague* championsLeague, std::vector<ChampionsLeagueMetrics>* championsLeagueMetrics)
-    : tournament(nullptr), championsLeague(championsLeague), championsLeagueMetrics(championsLeagueMetrics) {
+MonteCarloSimulator::MonteCarloSimulator(ChampionsLeague* tournament)
+    : tournament(nullptr), championsLeague(tournament) {
 }
 
 void MonteCarloSimulator::runSimulations(const int numberSchedules, const int numberSimulations, std::mt19937 randomNumberGenerator) const {
@@ -43,13 +43,16 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
             //runCounter++;
             tournament->resetTournament();
 
-            //tournament->getTeamManager()->changeTeamRatings("equallyDistanced");
+            //tournament->getTeamManager()->changeTeamRatings("equallyDistanced",20);
 
             tournament->makeInitialSchedule(randomNumberGenerator);
 
             std::cout<<"currently running schedule " << i << std::endl;
 
             for(int j = 0; j < numberSimulations; ++j) {
+
+                std::cout<<"running"<<i<<" "<<j<<std::endl;
+
 
                 Simulator::simulateCompetition(tournament->getFirstTimeTable(), randomNumberGenerator);
 
@@ -82,18 +85,21 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
     // for the champions league format
     else if (championsLeague!= nullptr) {
 
-        ChampionsLeagueMetrics metric;
+        //ChampionsLeagueMetrics metric;
 
 
         for(int i = 0; i < numberSchedules; i++) {
 
             std::cout<<"currently running simulation " << i << std::endl;
+
+            championsLeague->resetTournament();
             championsLeague->makeInitialSchedule(randomNumberGenerator);
 
 
             for(int j = 0; j < numberSimulations; ++j) {
 
                 if(championsLeague->getNumberDynamicRounds() != 0) {
+
 
                     Simulator::simulateCompetition(championsLeague->getFirstTimeTable(), randomNumberGenerator);
 
@@ -102,31 +108,23 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
                     Simulator::simulateCompetition(championsLeague->getSecondTimeTable(), randomNumberGenerator);
                     championsLeague->setCompleteTimeTable();
 
-                    metric.calculateMetrics(*championsLeague, 3);
-
-                    championsLeagueMetrics->push_back(metric);
                     championsLeague->getTeamManager()->resetTeams();
                 }
 
 
                 else {
                     Simulator::simulateCompetition(championsLeague->getCompleteTimeTable(), randomNumberGenerator);
-                    metric.calculateMetrics(*championsLeague, 3);
-
-
-                    championsLeagueMetrics->push_back(metric);
                     championsLeague->getTeamManager()->resetTeams();
                 }
 
             }
 
-            }
         }
-
-    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\bounds_static.txt)", teamBounds);
-    Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_static.txt)", rfFeaturesList);
-    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_static.txt)", lastRoundsMatches);
-    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_static.txt)", rankingInfo);
+    }
+    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\bounds_dynamic_points_difference.txt)", teamBounds);
+    Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_dynamic_points_difference.txt)", rfFeaturesList);
+    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_dynamic_points_difference.txt)", lastRoundsMatches);
+    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_dynamic_points_difference.txt)", rankingInfo);
 }
 
 

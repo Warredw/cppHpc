@@ -94,11 +94,14 @@ void Tournament::setSecondTimeTable(const TimeTable &table) {
 
 void Tournament::setCompleteTimeTable() {
 
-    for (int i = 0; i < 19; i++) {
+    const int firstTableRounds = firstTimeTable.getNumberOfRounds();
+    const int secondTableRounds = secondTimeTable.getNumberOfRounds();
+
+    for (int i = 0; i < firstTableRounds; i++) {
         completeTimeTable.setRound(i, firstTimeTable.getRound(i));
     }
-    for (int i = 0; i < 19; i++) {
-        completeTimeTable.setRound(i + 19, secondTimeTable.getRound(i));
+    for (int i = 0; i < secondTableRounds; i++) {
+        completeTimeTable.setRound(i + firstTableRounds, secondTimeTable.getRound(i));
     }
 }
 

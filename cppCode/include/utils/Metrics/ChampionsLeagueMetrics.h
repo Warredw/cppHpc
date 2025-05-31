@@ -19,7 +19,6 @@ class ChampionsLeagueMetrics {
     std::map<int,int> numberUndecided;
 
 
-
 public:
 
     // Getters

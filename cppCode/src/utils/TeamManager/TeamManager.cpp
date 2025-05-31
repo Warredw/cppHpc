@@ -88,7 +88,7 @@ void TeamManager::resetTeams() const {
 }
 
 
-void TeamManager::changeTeamRatings(const std::string &distribution) const {
+void TeamManager::changeTeamRatings(const std::string &distribution, int value) const {
 
     if (distribution == "equallyDistanced") {
 
@@ -96,7 +96,7 @@ void TeamManager::changeTeamRatings(const std::string &distribution) const {
 
         for(const auto& team: teams) {
             team->setRating(startRating);
-            startRating -= 20;
+            startRating -= value;
         }
     }
 }

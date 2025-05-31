@@ -127,6 +127,8 @@ add_executable(${MY_PROJECT_NAME} src/main.cpp
         include/utils/Metrics/RandomForestFeatures.h
         src/utils/Metrics/Rankings.cpp
         include/utils/Metrics/Rankings.h
+        src/utils/Scheduling/Strategies/StaticObjective.cpp
+        src/utils/Scheduling/Strategies/StaticObjective.h
 )
 
 ######## Add Dependency Library

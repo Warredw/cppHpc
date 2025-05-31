@@ -1023,7 +1023,7 @@ CMakeFiles\cppCode.dir\src\main.cpp.obj: "C:\Program Files\Microsoft Visual Stud
 CMakeFiles\cppCode.dir\src\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h"
 CMakeFiles\cppCode.dir\src\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\clocale"
 CMakeFiles\cppCode.dir\src\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h"
-CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\tournament\DoubleRoundRobin.h
+CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Strategies\StaticObjective.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\tournament\Tournament.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\TimeTable.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\Round.h
@@ -1106,6 +1106,7 @@ CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Strategies\SchedulingStrategy.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\Simulator.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\OutcomeProbabilities.h
+CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\tournament\DoubleRoundRobin.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Schedulers\DoubleRoundRobinScheduler.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Writers\Writer.h
 CMakeFiles\cppCode.dir\src\main.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Metrics\SecondaryMetrics.h
@@ -4809,6 +4810,198 @@ CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\SchedulingStrategy.cpp.ob
 CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\SchedulingStrategy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_bit_utils.hpp"
 
 
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\StaticObjective.cpp
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Strategies\StaticObjective.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\tournament\Tournament.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\TimeTable.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\Round.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals_core.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\sal.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\concurrencysal.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vadefs.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xkeycheck.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_bit_utils.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\climits"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xtr1common"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\intrin0.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\intrin0.inl.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_sanitizer_annotate_container.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdint"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdint.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdlib"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_malloc.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_search.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stddef.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cfloat"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cwchar"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdio"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\wchar.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\errno.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_string.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wconio.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wctype.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wio.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_share.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\stat.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\types.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\new"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_new_debug.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_new.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\crtdefs.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\use_ansi.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstddef"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\malloc.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_exception.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\eh.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_terminate.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xatomic.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_iter_core.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\initializer_list"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstring"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\string.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memory.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xpolymorphic_allocator.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\Match.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\Team.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_string_view.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iosfwd"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cctype"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\HapSet.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iostream"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ios"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xlocnum"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iterator"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\streambuf"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xiosbase"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\system_error"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_system_error_abi.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cerrno"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdexcept"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xcall_once.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xerrc.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\atomic"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xthreads.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_threads_core.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xtimec.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ctime"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xlocale"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\typeinfo"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_typeinfo.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xfacet"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xlocinfo"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_xlocinfo_types.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\clocale"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\fstream"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_filebuf.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\random"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_int128.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_minmax.hpp"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xbit_ops.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\ilocplex.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilomodel.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloalg.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloenv.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilosys.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iomanip"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xlocmon"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xloctime"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\sstream"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdarg.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\setjmp.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilortti.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilomemmgr.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloallocator.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloextractable.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilolinkedlist.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloiterator.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloexpression.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilolinear.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloset.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilocollection.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloanyset.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloany.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilobox.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilorandom.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilosmodel.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloexpressioni.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilsched\ilosbasic.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilonumfunci.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilointervalsi.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloskiplist.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloparami.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilobasic.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilointervals.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloparam.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilonumfunc.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilosegfunc.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilosolution.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilodomaini.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilsched\ilostimei.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilohash.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\ilocplexi.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\iloalgi.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\concert\include\ilconcert\ilomodeli.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\ilocarray.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cplexx.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cpxconst.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cplexl.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cpxconst.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\ilomodelasst.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cplex.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cpxconst.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\cpxconst.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\iloparam.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\iloCPXCALLBACKINFOenum.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\iloCPXCALLBACKSOLUTIONSTRATEGYenum.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: "C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\include\ilcplex\ilogoals.h"
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\TeamManager\TeamManager.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Schedulers\Scheduler.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Strategies\SchedulingStrategy.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\Simulator.h
+CMakeFiles\cppCode.dir\src\utils\Scheduling\Strategies\StaticObjective.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\OutcomeProbabilities.h
+
+
 CMakeFiles\cppCode.dir\src\utils\Simulations\MonteCarloSimulator.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Simulations\MonteCarloSimulator.cpp
 CMakeFiles\cppCode.dir\src\utils\Simulations\MonteCarloSimulator.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\MonteCarloSimulator.h
 CMakeFiles\cppCode.dir\src\utils\Simulations\MonteCarloSimulator.cpp.obj: C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Metrics\SecondaryMetrics.h
@@ -6548,7 +6741,9 @@ C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\Round.h:
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\entities\TimeTable.h:
 
-C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\tournament\DoubleRoundRobin.h:
+C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Metrics\Rankings.h:
+
+C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Strategies\StaticObjective.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xnode_handle.h":
 
@@ -6562,6 +6757,8 @@ C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\Simulator.h:
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\OutcomeProbabilities.h:
 
+C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\tournament\DoubleRoundRobin.h:
+
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Scheduling\Schedulers\DoubleRoundRobinScheduler.h:
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Writers\Writer.h:
@@ -6573,8 +6770,6 @@ C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Metrics\SecondaryMetrics.h:
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xtree":
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Metrics\ChampionsLeagueMetrics.h:
-
-C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Metrics\Rankings.h:
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\include\utils\Simulations\MonteCarloSimulator.h:
 
@@ -6633,6 +6828,8 @@ C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\MinimizeP
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\MinimizeRatingDifference.cpp:
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\SchedulingStrategy.cpp:
+
+C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Scheduling\Strategies\StaticObjective.cpp:
 
 C:\Users\dewae\Desktop\cpp\hpc\cppCode\src\utils\Simulations\MonteCarloSimulator.cpp:
 
