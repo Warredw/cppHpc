@@ -1,5 +1,6 @@
 #include "../../../include/utils/Metrics/Bounds.h"
 #include "tournament/Tournament.h"
+#include "config/CplexConfig.h"
 
 // Functions related to calculating the lowest and highest possible position of a given team in the tournament
 std::map<int, std::vector<Match>> Bounds::getRemainingMatches(Tournament &tournament, const int roundsBeforeTheEnd) {
@@ -180,6 +181,8 @@ int Bounds::solveWorstCaseRank(Tournament &tournament, const std::shared_ptr<Tea
     try {
         const IloModel model(env);
         IloCplex cplex(model);
+        cplex.setOut(env.getNullStream());
+        cplex.setParam(IloCplex::Param::Threads, CplexConfig::getNumThreads());
 
         // Step 1: Get Remaining Matches
         std::map<int, std::vector<Match>> remainingMatches = getRemainingMatches(tournament, roundsBeforeTheEnd);
@@ -206,7 +209,7 @@ int Bounds::solveWorstCaseRank(Tournament &tournament, const std::shared_ptr<Tea
         // Step 7: Solve
         if (cplex.solve()) {
             worstRank = static_cast<int>(cplex.getValue(tournament.getNumberTeams() - expr));
-            std::cout<<"Bound Solution Found" << std::endl;
+            //std::cout<<"Bound Solution Found" << std::endl; Too verbose
         } else {
             std::cerr << "CPLEX Failed to Solve Worst-Case Rank" << std::endl;
         }
@@ -229,6 +232,8 @@ int Bounds::solveBestCaseRank(Tournament &tournament, const std::shared_ptr<Team
     try {
         const IloModel model(env);
         IloCplex cplex(model);
+        cplex.setOut(env.getNullStream());
+        cplex.setParam(IloCplex::Param::Threads, CplexConfig::getNumThreads());
 
         // Step 1: Get Remaining Matches
         std::map<int, std::vector<Match>> remainingMatches = getRemainingMatches(tournament, roundsBeforeTheEnd);

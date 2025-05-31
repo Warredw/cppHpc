@@ -19,10 +19,17 @@
 #include "tournament/ChampionsLeague.h"
 #include "utils/Metrics/ChampionsLeagueMetrics.h"
 #include "utils/Scheduling/Strategies/MinimizeRatingDifference.h"
+#include "config/CplexConfig.h"
 
 
-int main() {
-
+int main(int argc, char** argv) {
+    int threads = 1;
+    if (argc > 1) {
+        threads = std::stoi(argv[1]);
+    }
+    CplexConfig::setNumThreads(threads);
+    std::cout << "Using " << CplexConfig::getNumThreads() << " threads for CPLEX." << std::endl;
+    
     std::mt19937 randomNumberGenerator(1234);
 
 
