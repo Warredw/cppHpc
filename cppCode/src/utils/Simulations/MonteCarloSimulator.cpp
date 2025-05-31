@@ -12,6 +12,10 @@
 #include "utils/Scheduling/Schedulers/ChampionsLeagueScheduler.h"
 #include "utils/Scheduling/Schedulers/DoubleRoundRobinScheduler.h"
 
+#include <chrono>
+#include <iomanip>
+#include <ctime>
+
 
 MonteCarloSimulator::MonteCarloSimulator(DoubleRoundRobin* tournament)
     : tournament(tournament),championsLeague(nullptr) {
@@ -39,7 +43,25 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
     if(tournament != nullptr) {
 
         int runCounter = 0;
+        auto startTime = std::chrono::steady_clock::now();
+
         for(int i = 0; i < numberSchedules; i++) {
+            auto currentTime = std::chrono::system_clock::now();
+            std::time_t currentTimeT = std::chrono::system_clock::to_time_t(currentTime);
+    
+            auto now = std::chrono::steady_clock::now();
+            auto elapsed = now - startTime;
+            double avgTimePerSchedule = std::chrono::duration_cast<std::chrono::seconds>(elapsed).count() / static_cast<double>(i + 1);
+            int remainingSchedules = numberSchedules - i - 1;
+            int estimatedRemainingSeconds = static_cast<int>(avgTimePerSchedule * remainingSchedules);
+    
+            int minutes = estimatedRemainingSeconds / 60;
+            int seconds = estimatedRemainingSeconds % 60;
+    
+            std::cout << "currently running schedule " << i
+                      << " at " << std::put_time(std::localtime(&currentTimeT), "%H:%M:%S")
+                      << " | estimated time remaining: " << minutes << "m " << seconds << "s" << std::endl;
+
             //runCounter++;
             tournament->resetTournament();
 
@@ -47,11 +69,9 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
 
             tournament->makeInitialSchedule(randomNumberGenerator);
 
-            std::cout<<"currently running schedule " << i << std::endl;
-
             for(int j = 0; j < numberSimulations; ++j) {
 
-                std::cout<<"running"<<i<<" "<<j<<std::endl;
+                std::cout<<"running ["<<i<<"->"<<j<<"]"<<std::endl;
 
 
                 Simulator::simulateCompetition(tournament->getFirstTimeTable(), randomNumberGenerator);
@@ -86,12 +106,26 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
     else if (championsLeague!= nullptr) {
 
         //ChampionsLeagueMetrics metric;
-
+        
+        auto startTime = std::chrono::steady_clock::now();
 
         for(int i = 0; i < numberSchedules; i++) {
-
-            std::cout<<"currently running simulation " << i << std::endl;
-
+            auto currentTime = std::chrono::system_clock::now();
+            std::time_t currentTimeT = std::chrono::system_clock::to_time_t(currentTime);
+    
+            auto now = std::chrono::steady_clock::now();
+            auto elapsed = now - startTime;
+            double avgTimePerSchedule = std::chrono::duration_cast<std::chrono::seconds>(elapsed).count() / static_cast<double>(i + 1);
+            int remainingSchedules = numberSchedules - i - 1;
+            int estimatedRemainingSeconds = static_cast<int>(avgTimePerSchedule * remainingSchedules);
+    
+            int minutes = estimatedRemainingSeconds / 60;
+            int seconds = estimatedRemainingSeconds % 60;
+    
+            std::cout << "currently running schedule " << i
+                      << " at " << std::put_time(std::localtime(&currentTimeT), "%H:%M:%S")
+                      << " | estimated time remaining: " << minutes << "m " << seconds << "s" << std::endl;
+            
             championsLeague->resetTournament();
             championsLeague->makeInitialSchedule(randomNumberGenerator);
 
@@ -121,10 +155,11 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
 
         }
     }
-    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\bounds_dynamic_points_difference.txt)", teamBounds);
-    Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_dynamic_points_difference.txt)", rfFeaturesList);
-    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_dynamic_points_difference.txt)", lastRoundsMatches);
-    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_dynamic_points_difference.txt)", rankingInfo);
+
+    Writer::writeTeamBounds(R"(bounds_dynamic_pointsdifference.txt)", teamBounds);
+    Writer::writeRandomForestFeatures(R"(rf_features_dynamic_pointsdifference.txt)", rfFeaturesList);
+    Writer::writeLastRounds(R"(last_rounds_dynamic_pointsdifference.txt)", lastRoundsMatches);
+    Writer::writeRankings(R"(ranking_dynamic_pointsdifference.txt)", rankingInfo);
 }
 
 

@@ -1,6 +1,7 @@
 #include "utils/Scheduling/Schedulers/DoubleRoundRobinScheduler.h"
 #include "tournament/Tournament.h"
 #include "entities/HapSet.h"
+#include "config/CplexConfig.h"
 
 // these are the static rounds
 void DoubleRoundRobinScheduler::setInitialSchedule(Tournament &tournament, std::mt19937& randomNumberGenerator)  {
@@ -33,6 +34,8 @@ void DoubleRoundRobinScheduler::setInitialSchedule(Tournament &tournament, std::
 
 
     IloCplex cplex(model);
+    cplex.setOut(env.getNullStream());
+    cplex.setParam(IloCplex::Param::Threads, CplexConfig::getNumThreads());
 
 
     if (cplex.solve()) {
@@ -70,6 +73,8 @@ void DoubleRoundRobinScheduler::setSecondSchedule(Tournament &tournament)const {
 
 
     IloCplex cplex(model);
+    cplex.setOut(env.getNullStream());
+    cplex.setParam(IloCplex::Param::Threads, CplexConfig::getNumThreads());
 
 
 

@@ -2,6 +2,7 @@
 #include "tournament/Tournament.h"
 
 #include "utils/Metrics/Bounds.h"
+#include "config/CplexConfig.h"
 
 void ChampionsLeagueScheduler::setInitialSchedule(Tournament &tournament, std::mt19937 &randomNumberGenerator)  {
 
@@ -22,6 +23,8 @@ void ChampionsLeagueScheduler::setInitialSchedule(Tournament &tournament, std::m
     addMilanMadridConstraint(env, model, x, tournament, matchPairings);
 
     IloCplex cplex(model);
+    cplex.setOut(env.getNullStream());
+    cplex.setParam(IloCplex::Param::Threads, CplexConfig::getNumThreads());
 
     if(cplex.solve()) {
         std::cout<<"solution for the champions league pairing found" << std::endl;
@@ -390,6 +393,8 @@ std::vector<std::tuple<int, int>> ChampionsLeagueScheduler::calculateMatchPairin
     IloEnv env;
     IloModel model(env);
     IloCplex cplex(model);
+    cplex.setOut(env.getNullStream());
+    cplex.setParam(IloCplex::Param::Threads, CplexConfig::getNumThreads());
     std::vector<std::vector<IloNumVar>> x;
 
     try {
