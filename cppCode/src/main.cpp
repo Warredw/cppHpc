@@ -37,10 +37,11 @@ int main(int argc, char** argv) {
     premierLeague->getScheduler().setSchedulingStrategy(new MinimizePointsDifferenceLaterRounds());
     */
 
-    auto* championsLeague = new ChampionsLeague(36, 1);
+    auto* championsLeague = new ChampionsLeague(36, 0);
     auto* metrics = new ChampionsLeagueMetrics();
 
 
     const MonteCarloSimulator simulator(championsLeague);
-    simulator.runSimulations(100, 30, randomNumberGenerator);
+    simulator.runSimulations(2, 2, randomNumberGenerator);
+
 }

@@ -25,6 +25,7 @@ public:
     static void writeTeamBounds(const std::string& filepath, const std::vector<TeamBounds>& runs);
     static void writeLastRounds(const std::string& filepath, const std::vector<std::map<int, std::vector<Match>>>& matches);
     static void writeRankings(const std::string& filepath, const std::vector<Rankings>& runs);
+    static void writeLastRoundsCL(const std::string& filepath, const std::vector<std::map<int, std::vector<Match>>>& matches);
 
 
 };

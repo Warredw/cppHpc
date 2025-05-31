@@ -34,10 +34,11 @@ void ChampionsLeagueScheduler::setInitialSchedule(Tournament &tournament, std::m
 
             TimeTable lastRound = tournament.getFirstTimeTable();
 
-            lastRound.getRounds().erase(lastRound.getRounds().begin(), lastRound.getRounds().begin() + tournament.getNumberDynamicRounds());
+            lastRound.getRounds().erase(lastRound.getRounds().begin(), lastRound.getRounds().begin() + 8 - tournament.getNumberDynamicRounds());
 
             tournament.setSecondTimeTable(lastRound);
-            tournament.getFirstTimeTable().getRounds().pop_back();
+            tournament.getFirstTimeTable().getRounds().erase(tournament.getFirstTimeTable().getRounds().end() - tournament.getNumberDynamicRounds(), tournament.getFirstTimeTable().getRounds().end());
+
             tournament.setCompleteTimeTable();
 
         }
@@ -45,15 +46,11 @@ void ChampionsLeagueScheduler::setInitialSchedule(Tournament &tournament, std::m
         else {
             tournament.setCompleteTimeTable();
         }
-
-
     }
-
     else(std::cout<<"no solution found");
-
 }
 
-
+/*
 void ChampionsLeagueScheduler::setSecondSchedule(Tournament &tournament) const {
 
     // get the edges
@@ -106,6 +103,14 @@ void ChampionsLeagueScheduler::setSecondSchedule(Tournament &tournament) const {
     tournament.getSecondTimeTable().setRound(0, allRounds[index]);
 
 }
+
+*/
+void ChampionsLeagueScheduler::setSecondSchedule(Tournament &tournament) const {
+
+    std::cout<<"second schedule";
+
+}
+
 
 
 std::vector<std::tuple<int, int> > ChampionsLeagueScheduler::getEdges(Tournament *tournament, const std::vector<std::tuple<int,int>>& matches) {

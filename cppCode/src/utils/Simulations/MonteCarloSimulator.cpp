@@ -86,6 +86,7 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
     else if (championsLeague!= nullptr) {
 
         //ChampionsLeagueMetrics metric;
+        int runCounter = 0;
 
 
         for(int i = 0; i < numberSchedules; i++) {
@@ -98,7 +99,6 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
 
             for(int j = 0; j < numberSimulations; ++j) {
 
-                if(championsLeague->getNumberDynamicRounds() != 0) {
 
 
                     Simulator::simulateCompetition(championsLeague->getFirstTimeTable(), randomNumberGenerator);
@@ -108,23 +108,26 @@ void MonteCarloSimulator::runSimulations(const int numberSchedules, const int nu
                     Simulator::simulateCompetition(championsLeague->getSecondTimeTable(), randomNumberGenerator);
                     championsLeague->setCompleteTimeTable();
 
+                    currentBound.setTeamBounds(*championsLeague, 4);
+                    teamBounds.push_back(currentBound);
+
+                    rfFeatures.setRandomForestFeatures(*championsLeague);
+                    rfFeaturesList.push_back(rfFeatures);
+
+                    lastRoundsMatches[runCounter]  = Bounds::getRemainingMatches(*championsLeague,5);
+
+                    ranking.setRanking(*championsLeague);
+                    rankingInfo.push_back(ranking);
                     championsLeague->getTeamManager()->resetTeams();
-                }
-
-
-                else {
-                    Simulator::simulateCompetition(championsLeague->getCompleteTimeTable(), randomNumberGenerator);
-                    championsLeague->getTeamManager()->resetTeams();
-                }
-
+                    runCounter++;
             }
 
         }
     }
-    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\bounds_static_objectiveEndRounds.txt)", teamBounds);
+    Writer::writeTeamBounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\bounds_static_CL.txt)", teamBounds);
     //Writer::writeRandomForestFeatures(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\rf_features_dynamic_minPoints.txt)", rfFeaturesList);
-    Writer::writeLastRounds(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_static_objectiveEndRounds.txt)", lastRoundsMatches);
-    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_static_objectiveEndRounds.txt)", rankingInfo);
+    Writer::writeLastRoundsCL(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\last_rounds_static_CL.txt)", lastRoundsMatches);
+    Writer::writeRankings(R"(C:\Users\dewae\Desktop\cpp\hpc\cppCode\good_output\ranking_static_CL.txt)", rankingInfo);
 }
 
 

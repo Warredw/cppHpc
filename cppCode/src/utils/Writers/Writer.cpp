@@ -214,6 +214,40 @@ void Writer::writeLastRounds(const std::string& filepath, const std::vector<std:
     file.close();
 }
 
+
+void Writer::writeLastRoundsCL(const std::string& filepath, const std::vector<std::map<int, std::vector<Match>>>& matches) {
+    std::ofstream file(filepath);
+
+    if (!file.is_open()) {
+        std::cerr << "Failed to open file: " << filepath << std::endl;
+        return;
+    }
+
+    // Write header
+    file << "run,round,home_team,away_team\n";
+
+    for(size_t run = 0; run < matches.size(); ++run) {
+
+        const auto& runMatches = matches[run];
+        if(runMatches.empty()) continue;
+
+        // now go over the rounds
+        for(int i = 0; i <4; i++) {
+
+            const auto& roundMatches = runMatches.at(i+4);
+
+            // now go over the matches
+            for(const auto& match : roundMatches) {
+                file << run << ","
+                     << 5+i << ","                             // round
+                     << match.getHomeTeam()->getName() << ","   // home team name
+                     << match.getAwayTeam()->getName() << "\n";   // away team name   // away team name
+            }
+        }
+    }
+    file.close();
+}
+
 void Writer::writeRankings(const std::string &filepath, const std::vector<Rankings> &runs) {
     std::ofstream file(filepath);
 

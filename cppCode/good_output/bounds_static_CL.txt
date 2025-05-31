@@ -1,0 +1,577 @@
+run,team,round,lowest,highest
+0,Borussia Dortmund,5,36,1
+0,Real Madrid,5,32,1
+0,PSV,5,36,1
+0,Manchester City,5,36,1
+0,Bayern Munich,5,35,1
+0,Lille,5,36,1
+0,Inter,5,36,1
+0,Atletico Madrid,5,32,1
+0,PSG,5,36,1
+0,Celtic,5,36,1
+0,Liverpool,5,36,1
+0,Leipzig,5,36,1
+0,Young Boys,5,36,1
+0,Barcelona,5,32,1
+0,Bayer Leverkusen,5,36,1
+0,Atalanta,5,36,1
+0,Sporting CP,5,36,1
+0,AS Monaco,5,36,1
+0,Aston Villa,5,36,1
+0,Juventus,5,35,1
+0,PAOK,5,36,2
+0,Galatasaray,5,36,1
+0,Bologna,5,36,1
+0,Girona,5,36,2
+0,Maccabi Tel Aviv,5,36,1
+0,Arsenal,5,36,1
+0,Sparta Praha,5,36,1
+0,Sturm Graz,5,36,1
+0,Shakhtar Donetsk,5,36,1
+0,Fenerbahçe,5,36,1
+0,Stuttgart,5,36,1
+0,Benfica,5,36,1
+0,Feyenoord,5,36,1
+0,Club Brugge,5,36,1
+0,AC Milan,5,36,1
+0,Stade Brestois,5,36,1
+0,Borussia Dortmund,6,34,1
+0,Real Madrid,6,17,1
+0,PSV,6,36,3
+0,Manchester City,6,35,1
+0,Bayern Munich,6,25,1
+0,Lille,6,36,3
+0,Inter,6,36,3
+0,Atletico Madrid,6,27,1
+0,PSG,6,35,1
+0,Celtic,6,36,3
+0,Liverpool,6,27,1
+0,Leipzig,6,34,1
+0,Young Boys,6,36,8
+0,Barcelona,6,17,1
+0,Bayer Leverkusen,6,36,3
+0,Atalanta,6,36,1
+0,Sporting CP,6,36,2
+0,AS Monaco,6,36,8
+0,Aston Villa,6,36,1
+0,Juventus,6,25,1
+0,PAOK,6,36,6
+0,Galatasaray,6,36,2
+0,Bologna,6,36,3
+0,Girona,6,36,12
+0,Maccabi Tel Aviv,6,36,3
+0,Arsenal,6,35,1
+0,Sparta Praha,6,36,3
+0,Sturm Graz,6,36,8
+0,Shakhtar Donetsk,6,36,1
+0,Fenerbahçe,6,36,1
+0,Stuttgart,6,36,3
+0,Benfica,6,36,3
+0,Feyenoord,6,36,2
+0,Club Brugge,6,36,1
+0,AC Milan,6,34,1
+0,Stade Brestois,6,36,3
+0,Borussia Dortmund,7,26,3
+0,Real Madrid,7,10,1
+0,PSV,7,36,11
+0,Manchester City,7,22,2
+0,Bayern Munich,7,11,1
+0,Lille,7,36,11
+0,Inter,7,36,13
+0,Atletico Madrid,7,20,1
+0,PSG,7,22,2
+0,Celtic,7,36,11
+0,Liverpool,7,13,1
+0,Leipzig,7,20,1
+0,Young Boys,7,36,16
+0,Barcelona,7,10,1
+0,Bayer Leverkusen,7,33,6
+0,Atalanta,7,31,5
+0,Sporting CP,7,35,7
+0,AS Monaco,7,36,15
+0,Aston Villa,7,33,6
+0,Juventus,7,11,1
+0,PAOK,7,36,15
+0,Galatasaray,7,35,9
+0,Bologna,7,36,13
+0,Girona,7,36,20
+0,Maccabi Tel Aviv,7,35,7
+0,Arsenal,7,22,2
+0,Sparta Praha,7,36,11
+0,Sturm Graz,7,36,16
+0,Shakhtar Donetsk,7,35,7
+0,Fenerbahçe,7,35,7
+0,Stuttgart,7,36,13
+0,Benfica,7,33,6
+0,Feyenoord,7,31,5
+0,Club Brugge,7,33,6
+0,AC Milan,7,26,3
+0,Stade Brestois,7,36,11
+0,Borussia Dortmund,8,13,5
+0,Real Madrid,8,4,1
+0,PSV,8,34,18
+0,Manchester City,8,15,7
+0,Bayern Munich,8,6,1
+0,Lille,8,34,18
+0,Inter,8,31,15
+0,Atletico Madrid,8,11,2
+0,PSG,8,11,4
+0,Celtic,8,29,14
+0,Liverpool,8,8,1
+0,Leipzig,8,13,5
+0,Young Boys,8,36,28
+0,Barcelona,8,6,1
+0,Bayer Leverkusen,8,29,14
+0,Atalanta,8,15,7
+0,Sporting CP,8,31,15
+0,AS Monaco,8,36,28
+0,Aston Villa,8,29,14
+0,Juventus,8,11,2
+0,PAOK,8,34,15
+0,Galatasaray,8,26,12
+0,Bologna,8,31,15
+0,Girona,8,36,33
+0,Maccabi Tel Aviv,8,31,15
+0,Arsenal,8,11,4
+0,Sparta Praha,8,34,18
+0,Sturm Graz,8,36,30
+0,Shakhtar Donetsk,8,31,15
+0,Fenerbahçe,8,31,15
+0,Stuttgart,8,36,24
+0,Benfica,8,26,12
+0,Feyenoord,8,25,12
+0,Club Brugge,8,29,14
+0,AC Milan,8,13,5
+0,Stade Brestois,8,29,14
+1,Borussia Dortmund,5,36,1
+1,Real Madrid,5,36,1
+1,PSV,5,36,1
+1,Manchester City,5,36,1
+1,Bayern Munich,5,36,1
+1,Lille,5,36,1
+1,Inter,5,36,1
+1,Atletico Madrid,5,36,1
+1,PSG,5,36,1
+1,Celtic,5,36,1
+1,Liverpool,5,36,1
+1,Leipzig,5,36,1
+1,Young Boys,5,36,1
+1,Barcelona,5,36,1
+1,Bayer Leverkusen,5,36,1
+1,Atalanta,5,36,1
+1,Sporting CP,5,36,1
+1,AS Monaco,5,36,1
+1,Aston Villa,5,36,1
+1,Juventus,5,36,1
+1,PAOK,5,36,1
+1,Galatasaray,5,36,1
+1,Bologna,5,36,1
+1,Girona,5,36,1
+1,Maccabi Tel Aviv,5,36,1
+1,Arsenal,5,36,1
+1,Sparta Praha,5,36,1
+1,Sturm Graz,5,36,1
+1,Shakhtar Donetsk,5,36,1
+1,Fenerbahçe,5,36,1
+1,Stuttgart,5,36,1
+1,Benfica,5,36,1
+1,Feyenoord,5,36,1
+1,Club Brugge,5,36,1
+1,AC Milan,5,36,1
+1,Stade Brestois,5,36,1
+1,Borussia Dortmund,6,34,1
+1,Real Madrid,6,28,1
+1,PSV,6,35,1
+1,Manchester City,6,34,1
+1,Bayern Munich,6,25,1
+1,Lille,6,36,1
+1,Inter,6,36,1
+1,Atletico Madrid,6,36,1
+1,PSG,6,36,1
+1,Celtic,6,36,10
+1,Liverpool,6,32,1
+1,Leipzig,6,36,1
+1,Young Boys,6,36,6
+1,Barcelona,6,28,1
+1,Bayer Leverkusen,6,36,1
+1,Atalanta,6,36,1
+1,Sporting CP,6,36,1
+1,AS Monaco,6,36,1
+1,Aston Villa,6,36,3
+1,Juventus,6,28,1
+1,PAOK,6,36,6
+1,Galatasaray,6,36,1
+1,Bologna,6,36,1
+1,Girona,6,36,6
+1,Maccabi Tel Aviv,6,36,1
+1,Arsenal,6,36,1
+1,Sparta Praha,6,36,1
+1,Sturm Graz,6,36,1
+1,Shakhtar Donetsk,6,36,1
+1,Fenerbahçe,6,34,1
+1,Stuttgart,6,36,3
+1,Benfica,6,28,1
+1,Feyenoord,6,36,1
+1,Club Brugge,6,36,1
+1,AC Milan,6,36,2
+1,Stade Brestois,6,36,10
+1,Borussia Dortmund,7,27,1
+1,Real Madrid,7,14,1
+1,PSV,7,31,2
+1,Manchester City,7,19,1
+1,Bayern Munich,7,13,1
+1,Lille,7,36,7
+1,Inter,7,33,4
+1,Atletico Madrid,7,33,4
+1,PSG,7,30,2
+1,Celtic,7,36,19
+1,Liverpool,7,17,1
+1,Leipzig,7,30,2
+1,Young Boys,7,36,19
+1,Barcelona,7,19,1
+1,Bayer Leverkusen,7,33,4
+1,Atalanta,7,27,1
+1,Sporting CP,7,33,4
+1,AS Monaco,7,30,2
+1,Aston Villa,7,36,13
+1,Juventus,7,24,1
+1,PAOK,7,36,19
+1,Galatasaray,7,36,9
+1,Bologna,7,36,7
+1,Girona,7,36,17
+1,Maccabi Tel Aviv,7,36,7
+1,Arsenal,7,31,2
+1,Sparta Praha,7,35,7
+1,Sturm Graz,7,35,7
+1,Shakhtar Donetsk,7,36,7
+1,Fenerbahçe,7,30,2
+1,Stuttgart,7,36,7
+1,Benfica,7,14,1
+1,Feyenoord,7,27,1
+1,Club Brugge,7,33,4
+1,AC Milan,7,36,13
+1,Stade Brestois,7,36,23
+1,Borussia Dortmund,8,14,3
+1,Real Madrid,8,5,1
+1,PSV,8,27,12
+1,Manchester City,8,17,4
+1,Bayern Munich,8,4,1
+1,Lille,8,31,17
+1,Inter,8,22,6
+1,Atletico Madrid,8,30,13
+1,PSG,8,17,4
+1,Celtic,8,36,31
+1,Liverpool,8,6,1
+1,Leipzig,8,17,4
+1,Young Boys,8,36,30
+1,Barcelona,8,10,1
+1,Bayer Leverkusen,8,30,13
+1,Atalanta,8,19,5
+1,Sporting CP,8,22,6
+1,AS Monaco,8,26,9
+1,Aston Villa,8,31,17
+1,Juventus,8,17,4
+1,PAOK,8,36,30
+1,Galatasaray,8,35,22
+1,Bologna,8,31,17
+1,Girona,8,36,30
+1,Maccabi Tel Aviv,8,33,20
+1,Arsenal,8,19,5
+1,Sparta Praha,8,31,17
+1,Sturm Graz,8,30,13
+1,Shakhtar Donetsk,8,31,17
+1,Fenerbahçe,8,26,9
+1,Stuttgart,8,31,17
+1,Benfica,8,11,2
+1,Feyenoord,8,22,6
+1,Club Brugge,8,22,6
+1,AC Milan,8,31,17
+1,Stade Brestois,8,36,31
+2,Borussia Dortmund,5,36,1
+2,Real Madrid,5,36,1
+2,PSV,5,36,1
+2,Manchester City,5,32,1
+2,Bayern Munich,5,36,1
+2,Lille,5,36,1
+2,Inter,5,36,1
+2,Atletico Madrid,5,36,1
+2,PSG,5,36,1
+2,Celtic,5,36,1
+2,Liverpool,5,36,1
+2,Leipzig,5,36,1
+2,Young Boys,5,36,1
+2,Barcelona,5,36,1
+2,Bayer Leverkusen,5,36,1
+2,Atalanta,5,36,1
+2,Sporting CP,5,32,1
+2,AS Monaco,5,36,2
+2,Aston Villa,5,36,1
+2,Juventus,5,36,1
+2,PAOK,5,36,1
+2,Galatasaray,5,36,1
+2,Bologna,5,36,1
+2,Girona,5,36,1
+2,Maccabi Tel Aviv,5,36,1
+2,Arsenal,5,36,1
+2,Sparta Praha,5,36,1
+2,Sturm Graz,5,36,1
+2,Shakhtar Donetsk,5,36,1
+2,Fenerbahçe,5,36,1
+2,Stuttgart,5,36,1
+2,Benfica,5,36,1
+2,Feyenoord,5,36,1
+2,Club Brugge,5,36,1
+2,AC Milan,5,36,1
+2,Stade Brestois,5,36,1
+2,Borussia Dortmund,6,31,1
+2,Real Madrid,6,35,1
+2,PSV,6,36,4
+2,Manchester City,6,24,1
+2,Bayern Munich,6,24,1
+2,Lille,6,36,2
+2,Inter,6,35,1
+2,Atletico Madrid,6,31,1
+2,PSG,6,36,2
+2,Celtic,6,36,4
+2,Liverpool,6,36,1
+2,Leipzig,6,31,1
+2,Young Boys,6,36,2
+2,Barcelona,6,31,1
+2,Bayer Leverkusen,6,35,1
+2,Atalanta,6,24,1
+2,Sporting CP,6,17,1
+2,AS Monaco,6,36,12
+2,Aston Villa,6,36,10
+2,Juventus,6,36,1
+2,PAOK,6,36,1
+2,Galatasaray,6,36,4
+2,Bologna,6,36,4
+2,Girona,6,36,10
+2,Maccabi Tel Aviv,6,36,2
+2,Arsenal,6,36,2
+2,Sparta Praha,6,36,2
+2,Sturm Graz,6,36,4
+2,Shakhtar Donetsk,6,36,2
+2,Fenerbahçe,6,36,2
+2,Stuttgart,6,36,4
+2,Benfica,6,36,5
+2,Feyenoord,6,36,4
+2,Club Brugge,6,36,1
+2,AC Milan,6,36,1
+2,Stade Brestois,6,36,4
+2,Borussia Dortmund,7,26,1
+2,Real Madrid,7,21,1
+2,PSV,7,35,8
+2,Manchester City,7,12,1
+2,Bayern Munich,7,12,1
+2,Lille,7,36,10
+2,Inter,7,31,4
+2,Atletico Madrid,7,17,1
+2,PSG,7,31,4
+2,Celtic,7,36,13
+2,Liverpool,7,26,1
+2,Leipzig,7,17,1
+2,Young Boys,7,36,10
+2,Barcelona,7,17,1
+2,Bayer Leverkusen,7,21,1
+2,Atalanta,7,17,1
+2,Sporting CP,7,16,1
+2,AS Monaco,7,36,23
+2,Aston Villa,7,36,21
+2,Juventus,7,26,1
+2,PAOK,7,35,8
+2,Galatasaray,7,36,13
+2,Bologna,7,36,10
+2,Girona,7,36,13
+2,Maccabi Tel Aviv,7,34,5
+2,Arsenal,7,31,4
+2,Sparta Praha,7,36,9
+2,Sturm Graz,7,36,13
+2,Shakhtar Donetsk,7,36,10
+2,Fenerbahçe,7,36,10
+2,Stuttgart,7,36,13
+2,Benfica,7,36,13
+2,Feyenoord,7,35,8
+2,Club Brugge,7,34,5
+2,AC Milan,7,30,2
+2,Stade Brestois,7,36,10
+2,Borussia Dortmund,8,20,10
+2,Real Madrid,8,14,3
+2,PSV,8,32,17
+2,Manchester City,8,5,1
+2,Bayern Munich,8,5,1
+2,Lille,8,34,19
+2,Inter,8,16,8
+2,Atletico Madrid,8,14,3
+2,PSG,8,24,12
+2,Celtic,8,32,17
+2,Liverpool,8,16,8
+2,Leipzig,8,9,1
+2,Young Boys,8,34,19
+2,Barcelona,8,9,1
+2,Bayer Leverkusen,8,14,3
+2,Atalanta,8,9,1
+2,Sporting CP,8,10,1
+2,AS Monaco,8,36,31
+2,Aston Villa,8,36,31
+2,Juventus,8,16,4
+2,PAOK,8,28,16
+2,Galatasaray,8,36,23
+2,Bologna,8,28,16
+2,Girona,8,36,23
+2,Maccabi Tel Aviv,8,28,16
+2,Arsenal,8,16,8
+2,Sparta Praha,8,33,17
+2,Sturm Graz,8,36,23
+2,Shakhtar Donetsk,8,34,19
+2,Fenerbahçe,8,34,19
+2,Stuttgart,8,34,19
+2,Benfica,8,36,23
+2,Feyenoord,8,32,17
+2,Club Brugge,8,20,10
+2,AC Milan,8,16,6
+2,Stade Brestois,8,28,16
+3,Borussia Dortmund,5,36,1
+3,Real Madrid,5,36,1
+3,PSV,5,36,1
+3,Manchester City,5,31,1
+3,Bayern Munich,5,30,1
+3,Lille,5,36,1
+3,Inter,5,36,1
+3,Atletico Madrid,5,36,1
+3,PSG,5,36,1
+3,Celtic,5,36,1
+3,Liverpool,5,36,1
+3,Leipzig,5,36,1
+3,Young Boys,5,36,1
+3,Barcelona,5,36,1
+3,Bayer Leverkusen,5,36,1
+3,Atalanta,5,36,1
+3,Sporting CP,5,36,1
+3,AS Monaco,5,36,1
+3,Aston Villa,5,36,2
+3,Juventus,5,31,1
+3,PAOK,5,36,1
+3,Galatasaray,5,36,2
+3,Bologna,5,36,1
+3,Girona,5,36,1
+3,Maccabi Tel Aviv,5,36,1
+3,Arsenal,5,36,1
+3,Sparta Praha,5,36,1
+3,Sturm Graz,5,36,1
+3,Shakhtar Donetsk,5,36,1
+3,Fenerbahçe,5,36,1
+3,Stuttgart,5,36,1
+3,Benfica,5,36,1
+3,Feyenoord,5,36,1
+3,Club Brugge,5,36,1
+3,AC Milan,5,36,1
+3,Stade Brestois,5,36,1
+3,Borussia Dortmund,6,35,1
+3,Real Madrid,6,30,1
+3,PSV,6,35,1
+3,Manchester City,6,18,1
+3,Bayern Munich,6,18,1
+3,Lille,6,36,1
+3,Inter,6,34,1
+3,Atletico Madrid,6,33,1
+3,PSG,6,36,3
+3,Celtic,6,36,1
+3,Liverpool,6,36,4
+3,Leipzig,6,36,3
+3,Young Boys,6,36,1
+3,Barcelona,6,25,1
+3,Bayer Leverkusen,6,34,1
+3,Atalanta,6,36,1
+3,Sporting CP,6,34,1
+3,AS Monaco,6,36,8
+3,Aston Villa,6,36,11
+3,Juventus,6,25,1
+3,PAOK,6,36,8
+3,Galatasaray,6,36,11
+3,Bologna,6,36,4
+3,Girona,6,36,5
+3,Maccabi Tel Aviv,6,36,1
+3,Arsenal,6,35,1
+3,Sparta Praha,6,34,1
+3,Sturm Graz,6,36,5
+3,Shakhtar Donetsk,6,35,1
+3,Fenerbahçe,6,36,8
+3,Stuttgart,6,36,1
+3,Benfica,6,34,1
+3,Feyenoord,6,36,1
+3,Club Brugge,6,36,4
+3,AC Milan,6,36,1
+3,Stade Brestois,6,33,1
+3,Borussia Dortmund,7,32,5
+3,Real Madrid,7,25,1
+3,PSV,7,27,3
+3,Manchester City,7,8,1
+3,Bayern Munich,7,8,1
+3,Lille,7,35,6
+3,Inter,7,30,3
+3,Atletico Madrid,7,22,1
+3,PSG,7,32,5
+3,Celtic,7,36,7
+3,Liverpool,7,35,6
+3,Leipzig,7,36,10
+3,Young Boys,7,36,7
+3,Barcelona,7,12,1
+3,Bayer Leverkusen,7,30,3
+3,Atalanta,7,30,5
+3,Sporting CP,7,30,3
+3,AS Monaco,7,36,21
+3,Aston Villa,7,36,21
+3,Juventus,7,12,1
+3,PAOK,7,36,13
+3,Galatasaray,7,36,24
+3,Bologna,7,36,13
+3,Girona,7,36,13
+3,Maccabi Tel Aviv,7,30,5
+3,Arsenal,7,27,3
+3,Sparta Praha,7,25,1
+3,Sturm Graz,7,36,16
+3,Shakhtar Donetsk,7,32,5
+3,Fenerbahçe,7,36,17
+3,Stuttgart,7,35,6
+3,Benfica,7,25,1
+3,Feyenoord,7,36,7
+3,Club Brugge,7,36,13
+3,AC Milan,7,35,6
+3,Stade Brestois,7,30,3
+3,Borussia Dortmund,8,28,11
+3,Real Madrid,8,10,5
+3,PSV,8,21,8
+3,Manchester City,8,4,1
+3,Bayern Munich,8,4,1
+3,Lille,8,28,11
+3,Inter,8,17,5
+3,Atletico Madrid,8,9,3
+3,PSG,8,21,8
+3,Celtic,8,32,16
+3,Liverpool,8,25,9
+3,Leipzig,8,35,21
+3,Young Boys,8,33,19
+3,Barcelona,8,5,1
+3,Bayer Leverkusen,8,25,9
+3,Atalanta,8,27,11
+3,Sporting CP,8,25,9
+3,AS Monaco,8,36,30
+3,Aston Villa,8,36,29
+3,Juventus,8,5,1
+3,PAOK,8,32,16
+3,Galatasaray,8,36,26
+3,Bologna,8,36,24
+3,Girona,8,36,24
+3,Maccabi Tel Aviv,8,27,11
+3,Arsenal,8,13,5
+3,Sparta Praha,8,20,6
+3,Sturm Graz,8,33,19
+3,Shakhtar Donetsk,8,21,8
+3,Fenerbahçe,8,36,29
+3,Stuttgart,8,32,16
+3,Benfica,8,10,5
+3,Feyenoord,8,33,19
+3,Club Brugge,8,36,24
+3,AC Milan,8,25,9
+3,Stade Brestois,8,21,8
